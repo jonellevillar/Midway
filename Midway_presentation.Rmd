@@ -1,0 +1,522 @@
+---
+title: "Midway Evaluation"
+subtitle: "Dept. of Clinical Science II <br/> University of Bergen"  
+author: 
+  - "&#x1F60E; Jonelle Dickow Villar"
+date: "November 25, 2021"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, yellow_dots.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+library(fontawesome)
+library(tidyverse)
+library(xaringan)
+library(xaringanExtra)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+dark_yellow <- "#EFBE43"
+light_yellow <- "#FDF7E9"
+gray <- "#333333"
+blue <- "#4466B0"
+
+style_duo(
+  # colors
+  primary_color = light_yellow,
+  secondary_color = dark_yellow,
+  header_color = gray,
+  text_color = gray,
+  code_inline_color = colorspace::lighten(gray),
+  text_bold_color = colorspace::lighten(gray),
+  link_color = blue,
+  title_slide_text_color = blue,
+
+  # fonts
+  header_font_google = google_font("Martel", "300", "400"),
+  text_font_google = google_font("Lato"),
+  code_font_google = google_font("Fira Mono")  
+)
+
+
+xaringanExtra::use_logo("UiBlogoMED_gray_v_Eng.png",
+                        width = "310px",
+                        height = "90px",
+                        position = xaringanExtra::css_position(bottom = "5px", left = "25px") 
+  )
+
+xaringanExtra::use_tile_view()
+
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
+
+```
+
+---
+
+class:center, middle, title
+
+###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia, Bipolar Disorder and Attention Deficit/Hyperactivity Disorder (ADHD)**<br><br>
+
+.Large[.right[
+**Principal Supervisor**: Stéphanie Le Hellard, UiB<br><br>
+**Co-Supervisors**: Anne-Kristin Stavrum, UiB,<br><br>
+                  Tetyana Zayats, Broad Institute & Mass.General, USA<br><br>
+                  Ingrid Melle, UiO<br><br>
+]]              
+
+
+
+---
+class: center, middle
+
+background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
+background-position: center
+background-size: 600px
+
+
+
+
+---
+class: left, top
+## **Epigenetics**
+
+class: title-slide, left, top, inverse
+background-image: url(slides/epi.jpg)
+background-position: center
+background-size: 600px
+
+---
+
+
+
+
+
+---
+
+#Introduction 
+
+DNA methylation occurs when a methyl group is added to the 5-carbon of a cytosine ring, resulting in 5-methylcytosine (5-mC). This addition occurs most often in the context of a CpG site, which is a cytosine nucleotide located proximal to a guanidine nucleotide.
+
+Throughout the genome, the majority of CpG sites are methylated, with the exception of CpG islands in the germline and near promoter regions, which are largely unmethylated and associated with gene expression. MicroRNA (miRNA), small noncoding RNA (ncRNA), and transfer RNA (tRNA) also can exert posttranscriptional control over gene expression. Modiﬁcations of Nterminal tail amino acids in histones H3 and H4, such as methylation, acetylation, phosphorylation, and ubiquitination, are associated with open- and closed- chromatin states.Depending on location, histone methylation may enhance or suppress gene expression @Hammoud2009.
+
+---
+
+Complex landscape of epigenetic mechanisms. (A) DNA can be modified at cytosine and adenine residues by the addition of chemical groups. Cytosines can be modified by methylation, hydroxymethylation (hmC), formylation (fC), and carboxylation (caC), while adenines are modified by methylation. (B) Nucleosomes, composed of DNA wrapped around histone proteins, can change position to increase or decrease DNA accessibility. In addition, nucleosomes can be modified by the incorporation of histone variants and the addition of posttranslational modifications. (C) Noncoding RNAs play an important role in transcription regulation and are sometimes considered an epigenetic mechanism. Within RNA-induced silencing complexes (RISCs), miRNAs mediate the recognition and binding of RNAs that become targeted for degradation. lncRNAs are associated with other complexes and can activate or repress transcription. (D) All RNA nucleotides can be modified by the addition of chemical groups. The list of RNA modifications includes N6-methyladenosine (m6A) and over 160 other chemical modifications.
+
+
+
+
+
+
+
+---
+#Aim 
+
+---
+#Project 1
+Identify whether the association of schizophrenia vs. controls on cell-type proportions is impacted by time-of- blood collection. 
+
+---
+
+class: center, top
+
+background-image: url(slides/)
+background-position: center
+background-size: 600px
+
+
+
+Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
+
+---
+
+## **Circadian Rhythms**¨
+
+Circadian rhythms are physical, mental and behavioral variations that follow an approximately 24-hour cycle in response to the periodic alternation between day and night.
+
+In optimal conditions of youth and health, most—if not all—physiological systems obey regular circadian rhythms in response to the periodic day-night cycle and can be well described by standard techniques such as cosinor analysis. Adverse conditions can disturb the regularity and amplitude of circadian cycles, and, recently, there is interest in the field of chronobiology to quantify irregularities in the circadian rhythm as a means to track underlying pathologies @Fossion2018
+
+In the last few decades, it has become well established that most—if not all—physiological systems exhibit these regular circadian rhythms, and it has been discovered that they are largely controlled by a central clock and several peripheral oscillators [1]. More recently, it has been observed that adverse conditions, such as “healthy” and pathological aging, illness, stress and medication use, can disturb the regularity and amplitude of the circadian rhythm. (Ibid)
+
+
+
+
+---
+#Project 2
+Identify DNA methylation changes in patients with psychosis associated with the common effects of antipsychotics and the specific effects of four antipsychotic medications 
+
+- Aripiprazole
+- Olanzapine
+- Quetiapine
+- Risperidone 
+
+---
+#Project 3 
+Identify DNA methylation changes in patients associated with the effects of Lithium in Bipolar Disorder
+
+---
+
+---
+class: center, middle
+
+
+background-position: center
+background-size: 600px
+
+# Acknowledgements
+
+.pull-left[
+**Supervisor Prof. Stéphanie Le Hellard**<br><br>
+**Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
+**Colleagues in The Martens Group**<br><br>
+]
+
+.pull-right[
+![](slides/Martens_lab_2021.jpg)
+]
+
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)<br/>
+---
+
+
+
+## Typography
+
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+
+[Link to another slide](#colors).
+
+### Lorem Ipsum
+
+Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
+Lacinia neque mollis nascetur neque urna velit bibendum. 
+Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
+
+- Dolor cubilia nostra nunc sodales
+
+- Consectetur aliquet mauris blandit
+
+- Ipsum dis nec porttitor urna sed
+
+---
+name: colors
+
+## Colors
+
+.left-column[
+Text color
+
+[Link Color](#3)
+
+**Bold Color**
+
+_Italic Color_
+
+`Inline Code`
+]
+
+.right-column[
+Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Erat nam at lectus urna.
+Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
+_Eros donec ac odio tempor_ orci dapibus ultrices. 
+Id porta nibh venenatis cras sed felis eget velit aliquet.
+Aliquam id diam maecenas ultricies mi.
+Enim sit amet 
+`code_color("inline")`
+venenatis urna cursus eget nunc scelerisque viverra.
+]
+
+---
+
+# Big Topic or Inverse Slides `#`
+
+## Slide Headings `##`
+
+### Sub-slide Headings `###`
+
+#### Bold Call-Out `####`
+
+This is a normal paragraph text. Only use header levels 1-4.
+
+##### Possible, but not recommended `#####`
+
+###### Definitely don't use h6 `######`
+
+---
+
+# Left-Column Headings
+
+.left-column[
+## First
+
+## Second
+
+## Third
+]
+
+.right-column[
+Dolor quis aptent mus a dictum ultricies egestas.
+
+Amet egestas neque tempor fermentum proin massa!
+
+Dolor elementum fermentum pharetra lectus arcu pulvinar.
+]
+
+---
+class: inverse center middle
+
+# Topic Changing Interstitial
+
+--
+
+```
+class: inverse center middle
+```
+
+---
+layout: true
+
+## Blocks
+
+---
+
+### Blockquote
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+---
+
+### Code Blocks
+
+#### R Code
+
+```{r eval=FALSE}
+ggplot(gapminder) +
+  aes(x = gdpPercap, y = lifeExp, size = pop, color = country) +
+  geom_point() +
+  facet_wrap(~year)
+```
+
+#### JavaScript
+
+```js
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+---
+
+### More R Code
+
+```{r eval=FALSE}
+dplyr::starwars %>% dplyr::slice_sample(n = 4)
+```
+
+---
+
+```{r message=TRUE, eval=requireNamespace("cli", quietly = TRUE)}
+cli::cli_alert_success("It worked!")
+```
+
+--
+
+```{r message=TRUE}
+message("Just a friendly message")
+```
+
+--
+
+```{r warning=TRUE}
+warning("This could be bad...")
+```
+
+--
+
+```{r error=TRUE}
+stop("I hope you're sitting down for this")
+```
+
+
+---
+layout: true
+
+## Tables
+
+---
+exclude: `r if (requireNamespace("tibble", quietly=TRUE)) "false" else "true"`
+
+```{r eval=requireNamespace("tibble", quietly=TRUE)}
+tibble::as_tibble(mtcars)
+```
+
+---
+
+```{r}
+knitr::kable(head(mtcars), format = 'html')
+```
+
+---
+exclude: `r if (requireNamespace("DT", quietly=TRUE)) "false" else "true"`
+
+```{r eval=requireNamespace("DT", quietly=TRUE)}
+DT::datatable(head(mtcars), fillContainer = FALSE, options = list(pageLength = 4))
+```
+
+---
+layout: true
+
+## Lists
+
+---
+
+.pull-left[
+#### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+]
+
+.pull-right[
+
+#### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+]
+
+---
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+---
+
+### Nesting an ol in ul in an ol
+
+- level 1 item (ul)
+  1. level 2 item (ol)
+  1. level 2 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+- level 1 item (ul)
+  1. level 2 item (ol)
+  1. level 2 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+  1. level 4 item (ol)
+  1. level 4 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+- level 1 item (ul)
+
+---
+layout: true
+
+## Plots
+
+---
+
+```{r plot-example, eval=requireNamespace("ggplot2", quietly=TRUE)}
+library(ggplot2)
+(g <- ggplot(mpg) + aes(hwy, cty, color = class) + geom_point())
+```
+
+---
+
+
+layout: false
+
+## Square image
+
+<center><img src="https://octodex.github.com/images/labtocat.png" height="400px" /></center>
+
+.footnote[GitHub Octocat]
+
+---
+
+### Wide image
+
+![](https://guides.github.com/activities/hello-world/branching.png)
+
+.footnote[Wide images scale to 100% slide width]
+
+---
+
+## Two images
+
+.pull-left[
+![](https://octodex.github.com/images/motherhubbertocat.png)
+]
+
+.pull-right[
+![](https://octodex.github.com/images/dinotocat.png)
+]
+
+---
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)<br>
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
