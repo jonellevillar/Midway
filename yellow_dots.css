@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "• ";
+  color: #EFBE43;
+}
+
+### from allison hill
+#li::marker {
+ # content: "• ";
+ # color: #EFBE43;
+#}
