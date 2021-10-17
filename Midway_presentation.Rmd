@@ -176,24 +176,21 @@ Identify DNA methylation changes in patients associated with the effects of Lith
 ---
 
 ---
-class: center, middle
+class: center, top
 
-
-background-position: center
+background-image: url(slides/Martens_lab_2021.jpg)
+background-position: 10% 70%, 20% 10%
 background-size: 600px
 
 # Acknowledgements
 
-.pull-left[
+.pull-right[
 **Supervisor Prof. Stéphanie Le Hellard**<br><br>
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
 **Colleagues in The Martens Group**<br><br>
 ]
 
-.pull-right[
-![](slides/Martens_lab_2021.jpg)
-]
-
+<br/>
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)<br/>
 ---
 
