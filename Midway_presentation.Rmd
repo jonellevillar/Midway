@@ -187,11 +187,12 @@ background-size: 600px
 .pull-right[
 **Supervisor Prof. Stéphanie Le Hellard**<br><br>
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
-**Colleagues in The Martens Group**<br><br>
+**Colleagues in The Martens Group**<br><br><br>
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
 ]
 
+<br><br/>
 <br/>
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)<br/>
 ---
 
 
