@@ -65,12 +65,8 @@ xaringanExtra::use_logo("UiBlogoMED_gray_v_Eng.png",
   )
 
 xaringanExtra::use_tile_view()
-
-xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
-
 ```
 
----
 
 class:center, middle, title
 
@@ -80,19 +76,149 @@ class:center, middle, title
 **Principal Supervisor**: Stéphanie Le Hellard, UiB<br><br>
 **Co-Supervisors**: Anne-Kristin Stavrum, UiB,<br><br>
                   Tetyana Zayats, Broad Institute & Mass.General, USA<br><br>
-                  Ingrid Melle, UiO<br><br>
+                  Ingrid Melle, UiO<br><br><br>
+                  July 1, 2019 - June 30, 2023
 ]]              
 
 
+
+---
+class: left, top
+##Objectives of this PhD work
+
+###General objectives
+###Specific objectives
+  - A
+  - B
+  - C
+
+
+
+---
+class: left, top
+
+#Project 1
+###To identify whether the association of schizophrenia vs. controls on cell-type proportions is impacted by time-of- blood collection. 
+
+
+---
+class: left, top
+
+background-image: url(slides/2021_08_05_Histogram_n729.png)
+background-position: 15% 60% 
+background-size: 600px
+
+
+.pull-right[]
+
+
+
+---
+class: left, top
+background-image: url(slides/2021_09_04_Table.CorrectPvalsTeal.png)
+background-position: 15% 60% 
+background-size: 400px
+
+.pull-right[]
+
+---
+class: left, top
+
+###Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
+
+
+
+class: left, top
+
+---
+class: left, top
+
+---
+class: left, top
+#Project 2
+Identify DNA methylation changes in patients with psychosis associated with the common effects of antipsychotics and the specific effects of four antipsychotic medications 
+
+- Aripiprazole
+- Olanzapine
+- Quetiapine
+- Risperidone 
+
+---
+class: left, top
+#Symptoms of Psychosis 
+
+Two of the main symptoms are delusions and hallucinations. Delusions are false beliefs, an can include thoughts that the TV is sending you signals or someone is plotting against you. Hallucinations are false perceptions, such as hearing, seeing, or feeling something that is not there. People with Major depressive disorder can experience psychotic symptoms. 
+Trouble thinking clearly or concentrating.
+
+Schizophrenia is one type of psychotic disorder. People with bipolar disorder may also have psychotic symptoms
+Suspiciousness or unease around others.
+Lack of self-care or hygiene.
+Spending more time alone than usual.
+Stronger emotions than situations call for.
+No emotions at all.
+---
+class: left, top
+#Project 3 
+Identify DNA methylation changes in patients associated with the effects of Lithium in Bipolar Disorder
+
+---
+
+class: left top inverse 
+#Conclusion of the public event
+
+###There will be 5-10 minutes of public discussion
+
+###Then the public presentation is concluded and the midway evaluation will proceed in a closed meeting. 
+
+###The audience is kindly requested to leave the room.
 
 ---
 class: center, middle
 
 background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
 background-position: center
-background-size: 600px
+background-size: 700px
+
+.pull-left[
+.footnote[Eugène Gabritschevsky, _Untitled_,1949]
+]
+
+---
+class: left top 
+#Formal training component
 
 
+---
+class: left top 
+#Plan for completion
+
+---
+class: left top 
+#Technical Challenges
+
+
+There is currently no standardized EWAS pipeline for analysis. Findings from other research groups must be considered for study design, population, technical methods including:
+ - Microarry (Illumina 450K vs. EPIC - 850K) 
+ - Bisulfite sequencing
+ - 
+ - Small sample sizes vs. meta-analyses
+ - Methods of detecting DMRs
+ - Pathway analysis 
+ 
+ - something about QC and singularity issue with small sample size (insert image here of microarray)
+ ???
+ say something about bias for genes associated with cancer 
+ Sugden paper
+
+---
+class: left top 
+#Scientific Challenges
+
+The data available to us is derived from one blood sample. 
+We can perform observational studies of DNA methylation levels at that single time point. 
+- We need improved statistical tools to gain deeper understanding of our findings, especially when we have smaller sample sizes (i.e., target monotherapies). 
+- We can never control for all environmental factors that may influence the mental state of the individuals being studied. 
+- DNAm is dynamic and longitudinal studies are necessary to gain a more complete picture of the environmental impact being studied. 
 
 
 ---
@@ -107,11 +233,6 @@ background-size: 600px
 ---
 
 
-
-
-
----
-
 #Introduction 
 
 DNA methylation occurs when a methyl group is added to the 5-carbon of a cytosine ring, resulting in 5-methylcytosine (5-mC). This addition occurs most often in the context of a CpG site, which is a cytosine nucleotide located proximal to a guanidine nucleotide.
@@ -124,29 +245,6 @@ Complex landscape of epigenetic mechanisms. (A) DNA can be modified at cytosine 
 
 
 
-
-
-
-
----
-#Aim 
-
----
-#Project 1
-Identify whether the association of schizophrenia vs. controls on cell-type proportions is impacted by time-of- blood collection. 
-
----
-
-class: center, top
-
-background-image: url(slides/)
-background-position: center
-background-size: 600px
-
-
-
-Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
-
 ---
 
 ## **Circadian Rhythms**¨
@@ -157,17 +255,6 @@ In optimal conditions of youth and health, most—if not all—physiological sys
 
 In the last few decades, it has become well established that most—if not all—physiological systems exhibit these regular circadian rhythms, and it has been discovered that they are largely controlled by a central clock and several peripheral oscillators [1]. More recently, it has been observed that adverse conditions, such as “healthy” and pathological aging, illness, stress and medication use, can disturb the regularity and amplitude of the circadian rhythm. (Ibid)
 
-
-
-
----
-#Project 2
-Identify DNA methylation changes in patients with psychosis associated with the common effects of antipsychotics and the specific effects of four antipsychotic medications 
-
-- Aripiprazole
-- Olanzapine
-- Quetiapine
-- Risperidone 
 
 ---
 #Project 3 
