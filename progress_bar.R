@@ -1,0 +1,1 @@
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
