@@ -30,7 +30,7 @@ library(fontawesome)
 library(tidyverse)
 library(xaringan)
 library(xaringanExtra)
-
+library(here)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -70,12 +70,12 @@ xaringanExtra::use_tile_view()
 
 class:center, middle, title
 
-###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia, Bipolar Disorder and Attention Deficit/Hyperactivity Disorder (ADHD)**<br><br>
+###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder**<br><br>
 
 .Large[.right[
 **Principal Supervisor**: Stéphanie Le Hellard, UiB<br><br>
 **Co-Supervisors**: Anne-Kristin Stavrum, UiB,<br><br>
-                  Tetyana Zayats, Broad Institute & Mass.General, USA<br><br>
+                  Tetyana Zayats, Broad Institute, USA<br><br>
                   Ingrid Melle, UiO<br><br><br>
                   July 1, 2019 - June 30, 2023
 ]]              
@@ -86,22 +86,32 @@ class:center, middle, title
 class: left, top
 ##Objectives of this PhD work
 
-###General objectives
-###Specific objectives
-  - A
-  - B
-  - C
+###**General**
+###To identify epigenetic marks associated with Schizophrenia and Bipolar disorder
 
+###**Specific objectives**
+ ### -  Investigate time-of-blood draw on cell-type proportions
+ ### -  Common and specific effects of antipsychotic drugs
+ ### -  Disease specific effects of SCZ vs BPD
+  
 
 
 ---
+
+background-image: url(slides/Daylight_EG.png)
+background-position: 60% 75% 
+background-size: 515px
+
 class: left, top
 
-#Project 1
-###To identify whether the association of schizophrenia vs. controls on cell-type proportions is impacted by time-of- blood collection. 
+###Project 1
+###Does time-of-blood draw impact the association of SCZ vs controls on cell-type proportions?
+
+.pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]]
 
 
 ---
+
 class: left, top
 
 background-image: url(slides/2021_08_05_Histogram_n729.png)
@@ -109,7 +119,7 @@ background-position: 15% 60%
 background-size: 600px
 
 
-.pull-right[]
+.pull-right[Bimodal distribution of blood draw times]
 
 
 
@@ -124,26 +134,54 @@ background-size: 400px
 ---
 class: left, top
 
+#Conclusion
+
 ###Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
 
-
-
-class: left, top
-
----
-class: left, top
 
 ---
 class: left, top
 #Project 2
-Identify DNA methylation changes in patients with psychosis associated with the common effects of antipsychotics and the specific effects of four antipsychotic medications 
+background-image: url(slides/1947superJumbo.jpg)
+background-position: cover
+background-size: 200px
 
-- Aripiprazole
-- Olanzapine
-- Quetiapine
-- Risperidone 
+.pull-left[
+.footnote[Eugène Gabritschevsky, _Untitled_,1947]
+]
 
 ---
+class: left, top
+---
+class: left, top
+
+---
+class: left, top
+
+---
+
+---
+class: left, top
+
+##Identify DNA methylation associated with treatment effects of antipsychotics in psychosis 
+
+---
+class: left, top 
+
+#Project 3
+
+background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
+background-position: center
+background-size: 500px
+
+.pull-left[
+.footnote[Eugène Gabritschevsky, _Untitled_,1949]
+]
+
+
+
+---
+
 class: left, top
 #Symptoms of Psychosis 
 
@@ -158,30 +196,48 @@ Stronger emotions than situations call for.
 No emotions at all.
 ---
 class: left, top
-#Project 3 
-Identify DNA methylation changes in patients associated with the effects of Lithium in Bipolar Disorder
+###- Aripiprazole
+###- Olanzapine
+###- Quetiapine
+###- Risperidone 
 
+
+---
+class: left, top
+#Project 3 
+Identify differential DNA methylation in SCZ versus Bipolar
+---
+
+
+---
+class: center, top
+
+background-image: url(slides/Martens_lab_2021.jpg)
+background-position: 10% 70%, 20% 10%
+background-size: 600px
+
+# Acknowledgements
+
+.pull-right[
+**Supervisor Prof. Stéphanie Le Hellard**<br><br>
+**Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
+**Colleagues in The Martens Group**<br><br><br>
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
+]
+
+<br><br/>
+<br/>
 ---
 
 class: left top inverse 
 #Conclusion of the public event
 
-###There will be 5-10 minutes of public discussion
+###There will be 5-10 minutes of public discussion before conclusion of public presentation.
 
-###Then the public presentation is concluded and the midway evaluation will proceed in a closed meeting. 
-
-###The audience is kindly requested to leave the room.
+###The audience is then kindly requested to leave the room.
 
 ---
-class: center, middle
 
-background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
-background-position: center
-background-size: 700px
-
-.pull-left[
-.footnote[Eugène Gabritschevsky, _Untitled_,1949]
-]
 
 ---
 class: left top 
@@ -257,30 +313,10 @@ In the last few decades, it has become well established that most—if not all�
 
 
 ---
-#Project 3 
-Identify DNA methylation changes in patients associated with the effects of Lithium in Bipolar Disorder
 
 ---
 
----
-class: center, top
 
-background-image: url(slides/Martens_lab_2021.jpg)
-background-position: 10% 70%, 20% 10%
-background-size: 600px
-
-# Acknowledgements
-
-.pull-right[
-**Supervisor Prof. Stéphanie Le Hellard**<br><br>
-**Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
-**Colleagues in The Martens Group**<br><br><br>
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
-]
-
-<br><br/>
-<br/>
----
 
 
 
