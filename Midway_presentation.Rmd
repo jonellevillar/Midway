@@ -94,6 +94,16 @@ class: left, top
  ### -  Common and specific effects of antipsychotic drugs
  ### -  Disease specific effects of SCZ vs BPD
   
+---
+
+
+background-image: url(slides/Picture_1.png)
+background-position:cover
+background-size: 800px
+
+class: left, top
+## **Epigenetics**
+---
 
 
 ---
@@ -277,16 +287,7 @@ We can perform observational studies of DNA methylation levels at that single ti
 - DNAm is dynamic and longitudinal studies are necessary to gain a more complete picture of the environmental impact being studied. 
 
 
----
-class: left, top
-## **Epigenetics**
 
-class: title-slide, left, top, inverse
-background-image: url(slides/epi.jpg)
-background-position: center
-background-size: 600px
-
----
 
 
 #Introduction 
