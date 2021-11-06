@@ -96,16 +96,33 @@ class: left, top
   
 ---
 
-
-background-image: url(slides/Picture_1.png)
+background-image: url(slides/Smigielski.png)
 background-position:cover
-background-size: 800px
+background-size: 750px
 
-class: left, top
+.footnote[Smigielski _et al_, Molecular Psychiatry, 2020]
+
+
+
 ## **Epigenetics**
+
+
 ---
 
+- Essential role in tissue differentiation (Reike) 
+- Key role in determining transcription factor binding and enhancer function (Ziller)
+- Highly malleable; influenced by many environmental exposures, i.e. levels of _in utero_        nutrients and smoking 
+- Overtime changes as a function of age, cancer, and complex diseases
 
+---
+
+background-image: url(slides/ClinicalCourse.png)
+background-position: 50% 75% 
+background-size: 625px
+
+.footnote[McCutcheon _et al_, JAMA Psychiatry, 2020]
+
+## **Clinical Course of Schizophrenia**
 ---
 
 background-image: url(slides/Daylight_EG.png)
@@ -122,14 +139,14 @@ class: left, top
 
 ---
 
-class: left, top
+
 
 background-image: url(slides/2021_08_05_Histogram_n729.png)
-background-position: 15% 60% 
-background-size: 600px
+background-position: 50% 70% 
+background-size: 525px
 
-
-.pull-right[Bimodal distribution of blood draw times]
+class: left, top
+###Case-Control recorded blood draws (n=729)
 
 
 
@@ -139,22 +156,25 @@ background-image: url(slides/2021_09_04_Table.CorrectPvalsTeal.png)
 background-position: 15% 60% 
 background-size: 400px
 
-.pull-right[]
+
 
 ---
 class: left, top
 
-#Conclusion
+##Conclusion
 
 ###Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
 
 
 ---
-class: left, top
-#Project 2
+
 background-image: url(slides/1947superJumbo.jpg)
-background-position: cover
-background-size: 200px
+background-position: 60% 75%
+background-size: 525px
+
+class: left, top
+###Project 2
+###Common and specific effects of antipsychotics associated with psychosis
 
 .pull-left[
 .footnote[Eugène Gabritschevsky, _Untitled_,1947]
@@ -163,7 +183,16 @@ background-size: 200px
 ---
 class: left, top
 ---
+
+background-image: url(slides/Aringhieri2.jpg)
+background-position: 60% 75%
+background-size: 625px
+
+
+
 class: left, top
+
+.footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
 
 ---
 class: left, top
