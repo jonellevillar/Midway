@@ -174,6 +174,9 @@ class: left, top
 ##Conclusion
 
 ###Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
+background-image: url(slides/diff_phase.png)
+background-position: 15% 60% 
+background-size: 400px
 
 
 ---
