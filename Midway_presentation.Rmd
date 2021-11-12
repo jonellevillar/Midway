@@ -83,11 +83,18 @@ class:center, middle, title
 
 
 ---
+###Plan for this talk
+- Objectives
+- Methods
+- Status of project 
+
+
+---
 class: left, top
-##Objectives of this PhD work
+###Objectives of this PhD work
 
 ###**General**
-###To identify epigenetic marks associated with Schizophrenia and Bipolar disorder
+###To identify epigenetic marks associated with psychosis
 
 ###**Specific objectives**
  ### -  Investigate time-of-blood draw on cell-type proportions
@@ -107,7 +114,10 @@ background-size: 750px
 ## **Epigenetics**
 
 
+
 ---
+
+Perhaps in a nutshell I could say because of development, development, development.
 
 - Essential role in tissue differentiation (Reike) 
 - Key role in determining transcription factor binding and enhancer function (Ziller)
@@ -409,37 +419,7 @@ layout: true
 
 
 
----
 
-### More R Code
-
-```{r eval=FALSE}
-dplyr::starwars %>% dplyr::slice_sample(n = 4)
-```
-
----
-
-```{r message=TRUE, eval=requireNamespace("cli", quietly = TRUE)}
-cli::cli_alert_success("It worked!")
-```
-
---
-
-```{r message=TRUE}
-message("Just a friendly message")
-```
-
---
-
-```{r warning=TRUE}
-warning("This could be bad...")
-```
-
---
-
-```{r error=TRUE}
-stop("I hope you're sitting down for this")
-```
 
 
 ---
