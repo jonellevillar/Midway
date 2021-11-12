@@ -83,6 +83,8 @@ class:center, middle, title
 
 
 ---
+<!-- Slide 1 -->
+
 ###Plan for this talk
 - Objectives
 - Methods
@@ -90,6 +92,9 @@ class:center, middle, title
 
 
 ---
+
+<!-- Slide 2 -->
+
 class: left, top
 ###Objectives of this PhD work
 
@@ -102,6 +107,8 @@ class: left, top
  ### -  Disease specific effects of SCZ vs BPD
   
 ---
+
+<!-- Slide 3 -->
 
 background-image: url(slides/Smigielski.png)
 background-position:cover
@@ -117,6 +124,8 @@ background-size: 750px
 
 ---
 
+<!-- Slide 4 -->
+
 Perhaps in a nutshell I could say because of development, development, development.
 
 - Essential role in tissue differentiation (Reike) 
@@ -126,6 +135,8 @@ Perhaps in a nutshell I could say because of development, development, developme
 
 ---
 
+<!-- Slide 5 -->
+
 background-image: url(slides/ClinicalCourse.png)
 background-position: 50% 75% 
 background-size: 625px
@@ -134,6 +145,8 @@ background-size: 625px
 
 ## **Clinical Course of Schizophrenia**
 ---
+
+<!-- Slide 6 -->
 
 background-image: url(slides/Daylight_EG.png)
 background-position: 60% 75% 
@@ -149,7 +162,7 @@ class: left, top
 
 ---
 
-
+<!-- Slide 7 -->
 
 background-image: url(slides/2021_08_05_Histogram_n729.png)
 background-position: 50% 70% 
@@ -161,6 +174,9 @@ class: left, top
 
 
 ---
+
+<!-- Slide 8 -->
+
 class: left, top
 background-image: url(slides/2021_09_04_Table.CorrectPvalsTeal.png)
 background-position: 15% 60% 
@@ -169,6 +185,9 @@ background-size: 400px
 
 
 ---
+
+<!-- Slide 9 -->
+
 class: left, top
 
 ##Conclusion
@@ -180,6 +199,8 @@ background-size: 400px
 
 
 ---
+
+<!-- Slide 10 -->
 
 background-image: url(slides/1947superJumbo.jpg)
 background-position: 60% 75%
@@ -194,6 +215,9 @@ class: left, top
 ]
 
 ---
+
+<!-- Slide 11 -->
+
 background-image: url(slides/Aringhieri2.jpg)
 background-position: 60% 75%
 background-size: 775px
@@ -205,6 +229,10 @@ class: left, top
 .footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
 
 ---
+
+<!-- Slide 12 -->
+
+
 class: left, top
 ###Identify DNA methylation associated with treatment effects of antipsychotics in psychosis 
 
@@ -215,6 +243,7 @@ class: left, top
 
 ---
 
+<!-- Slide 13 -->
 
 background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
 background-position: 50% 70%
@@ -233,6 +262,9 @@ class: left, top
 
 
 ---
+
+<!-- Slide 14 -->
+
 class: center, top
 
 background-image: url(slides/Martens_lab_2021.jpg)
@@ -252,6 +284,8 @@ background-size: 600px
 <br/>
 ---
 
+<!-- Slide 15 -->
+
 class: left top inverse 
 #Conclusion of the public event
 
@@ -261,6 +295,8 @@ class: left top inverse
 
 ---
 
+<!-- Slide 16 -->
+
 background-image: url(slides/ECT3.png)
 background-position: 50% 65%
 background-size: 600px
@@ -269,6 +305,9 @@ class: left top
 ##Formal training components completed
 
 ---
+
+<!-- Slide 17 -->
+
 background-image: url(slides/posters3.png)
 background-position: contain
 background-size: 800px
@@ -279,6 +318,8 @@ class: left top
 
 ---
 
+<!-- Slide 18 -->
+
 background-image: url(slides/Plan3.png)
 background-position: 50% 65%
 background-size: 675px
@@ -287,6 +328,8 @@ class: left top
 ##Plan for project completion
 
 ---
+
+<!-- Slide 19 -->
 
 class: left top 
 #Technical Challenges
@@ -306,6 +349,8 @@ There is currently no standardized EWAS pipeline for analysis. Findings from oth
  Sugden paper
 
 ---
+<!-- Slide 20 -->
+
 class: left top 
 #Scientific Challenges
 
@@ -317,26 +362,9 @@ We can perform observational studies of DNA methylation levels at that single ti
 
 
 
+---
 
 
-
-## Typography
-
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
-
-[Link to another slide](#colors).
-
-### Lorem Ipsum
-
-Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
-Lacinia neque mollis nascetur neque urna velit bibendum. 
-Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
-
-- Dolor cubilia nostra nunc sodales
-
-- Consectetur aliquet mauris blandit
-
-- Ipsum dis nec porttitor urna sed
 
 ---
 name: colors
