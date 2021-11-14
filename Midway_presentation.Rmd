@@ -31,6 +31,7 @@ library(tidyverse)
 library(xaringan)
 library(xaringanExtra)
 library(here)
+
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -59,13 +60,12 @@ style_duo(
 
 
 xaringanExtra::use_logo("UiBlogoMED_gray_v_Eng.png",
-                        width = "310px",
-                        height = "90px",
-                        position = xaringanExtra::css_position(bottom = "5px", left = "25px") 
+                        position = xaringanExtra::css_position(top = "1em", right = "1em") 
   )
 
 xaringanExtra::use_tile_view()
 ```
+
 
 
 class:center, middle, title
@@ -85,30 +85,31 @@ class:center, middle, title
 ---
 <!-- Slide 1 -->
 
-###Plan for this talk
-- Objectives
-- Methods
-- Status of project 
+
+
+###Plan for this talk <br> <br />
+###- Objectives <br />
+###- Methods <br />
+###- Status of project <br />
 
 
 ---
 
 <!-- Slide 2 -->
 
-class: left, top
-###Objectives of this PhD work
+###Objectives of this PhD work <br />
 
 ###**General**
-###To identify epigenetic marks associated with psychosis
+###To identify epigenetic marks associated with psychosis <br />
 
 ###**Specific objectives**
- ### -  Investigate time-of-blood draw on cell-type proportions
- ### -  Common and specific effects of antipsychotic drugs
- ### -  Disease specific effects of SCZ vs BPD
+ ### -  Investigate time-of-blood draw on cell-type proportions 
+ ### -  Common and specific effects of antipsychotic drugs 
+ ### -  Disease specific effects of SCZ vs BPD 
   
 ---
 
-<!-- Slide 3 -->
+
 
 background-image: url(slides/Smigielski.png)
 background-position:cover
@@ -262,8 +263,19 @@ class: left, top
 
 
 ---
-
 <!-- Slide 14 -->
+
+### References
+
+```{r refs, echo=FALSE, results="asis"}
+#PrintBibliography(myBib)
+```
+
+
+
+---
+
+<!-- Slide 15 -->
 
 class: center, top
 
@@ -284,7 +296,7 @@ background-size: 600px
 <br/>
 ---
 
-<!-- Slide 15 -->
+<!-- Slide 16 -->
 
 class: left top inverse 
 #Conclusion of the public event
@@ -295,7 +307,7 @@ class: left top inverse
 
 ---
 
-<!-- Slide 16 -->
+<!-- Slide 17 -->
 
 background-image: url(slides/ECT3.png)
 background-position: 50% 65%
@@ -306,7 +318,7 @@ class: left top
 
 ---
 
-<!-- Slide 17 -->
+<!-- Slide 18 -->
 
 background-image: url(slides/posters3.png)
 background-position: contain
@@ -318,7 +330,7 @@ class: left top
 
 ---
 
-<!-- Slide 18 -->
+<!-- Slide 19 -->
 
 background-image: url(slides/Plan3.png)
 background-position: 50% 65%
@@ -329,7 +341,7 @@ class: left top
 
 ---
 
-<!-- Slide 19 -->
+<!-- Slide 20 -->
 
 class: left top 
 #Technical Challenges
@@ -349,7 +361,7 @@ There is currently no standardized EWAS pipeline for analysis. Findings from oth
  Sugden paper
 
 ---
-<!-- Slide 20 -->
+<!-- Slide 21 -->
 
 class: left top 
 #Scientific Challenges
@@ -365,54 +377,6 @@ We can perform observational studies of DNA methylation levels at that single ti
 ---
 
 
-
----
-name: colors
-
-## Colors
-
-.left-column[
-Text color
-
-[Link Color](#3)
-
-**Bold Color**
-
-_Italic Color_
-
-`Inline Code`
-]
-
-.right-column[
-Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Erat nam at lectus urna.
-Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
-_Eros donec ac odio tempor_ orci dapibus ultrices. 
-Id porta nibh venenatis cras sed felis eget velit aliquet.
-Aliquam id diam maecenas ultricies mi.
-Enim sit amet 
-`code_color("inline")`
-venenatis urna cursus eget nunc scelerisque viverra.
-]
-
----
-
-# Big Topic or Inverse Slides `#`
-
-## Slide Headings `##`
-
-### Sub-slide Headings `###`
-
-#### Bold Call-Out `####`
-
-This is a normal paragraph text. Only use header levels 1-4.
-
-##### Possible, but not recommended `#####`
-
-###### Definitely don't use h6 `######`
-
----
 
 # Left-Column Headings
 
@@ -522,37 +486,8 @@ layout: true
   - level 2 item
 - level 1 item
 
----
 
-### Nesting an ol in ul in an ol
 
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-  1. level 4 item (ol)
-  1. level 4 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-
----
-layout: true
-
-## Plots
-
----
-
-```{r plot-example, eval=requireNamespace("ggplot2", quietly=TRUE)}
-library(ggplot2)
-(g <- ggplot(mpg) + aes(hwy, cty, color = class) + geom_point())
-```
 
 ---
 
