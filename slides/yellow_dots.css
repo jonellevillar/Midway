@@ -5,6 +5,8 @@ ul {
 li::before {
   content: "• ";
   color: #EFBE43;
+  .enlarge{ 
+    font-size: 2em;
 }
 
 ### from allison hill
@@ -27,8 +29,6 @@ flex = "1 1 auto"
 
 
 
-
-
 /* Extra CSS */
 .small {
   font-size: 90%;
@@ -42,7 +42,6 @@ flex = "1 1 auto"
 .large {
   font-size: 120%;
 }
-
 
 .Large {
   font-size: 144%;

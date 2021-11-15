@@ -1,3 +1,10 @@
+
+width = "110px",
+height = "128px"
+
+
+
+
 #Introduction 
 
 DNA methylation occurs when a methyl group is added to the 5-carbon of a cytosine ring, resulting in 5-methylcytosine (5-mC). This addition occurs most often in the context of a CpG site, which is a cytosine nucleotide located proximal to a guanidine nucleotide.
