@@ -124,8 +124,8 @@ xaringanExtra::use_tile_view()
  - To identify epigenetic marks associated with psychosis and treatment effects <br />
 
 ###**Specific aims**
-  -  Investigate time-of-blood draw on cell-type proportions 
-  -  Common and specific effects of antipsychotic drugs 
+  -  Investigate time-of-blood draw on cell-type proportions in SCZ
+  -  Common and specific effects of antipsychotic drugs in SCZ, BPD, MDD
   -  Disorder specific effects of SCZ vs BPD 
   
 ---
@@ -136,7 +136,7 @@ background-image: url(Smigielski.png)
 background-position:cover
 background-size: 750px
 
-.footnote[Smigielski _et al_, Molecular Psychiatry, 2020]
+.footnote[Smigielski, _et al_, Molecular Psychiatry, 2020]
 
 
 
@@ -157,6 +157,8 @@ background-size: 750px
 ]
 
 ---
+
+
 class: hide_logo
 
 background-image: url(time-naive.png)
@@ -167,7 +169,7 @@ background-size: 625px
 
 
 
-## **Time-naive DNAm**
+### **Time-naive DNAm**
 
 
 ---
@@ -180,7 +182,7 @@ background-size: 625px
 
 .footnote[Oh & Petronis, Nature Reviews Genetics, 2021]
 
-## **Time-sensitive DNAm**
+### **Time-sensitive DNAm**
 
 
 ---
@@ -200,14 +202,15 @@ class: left, top
 
 ---
 
+
 ###Methods <br> <br>
 
 .enlarge[
 1. Selected SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
-1. Estimated cell-type proportions from DNAm data  *Salas _et al.,_ 2018* <br> <br>
+1. Estimated cell-type proportions from DNAm data  *Salas _et al._, 2018* <br> <br>
 1. Compared linear regression models when adjusting for blood draw time.  <br> <br>
 1. Compared full day vs half day <br> <br>
-1. Sub-analyses: Neutrophil-to-lympocyte ratio / Medication-free SCZ
+1. Sub-analyses: Neutrophil-to-lymphocyte ratio / Medication-free SCZ
 ]
 ---
 
@@ -247,24 +250,6 @@ class: top left hide_logo
 
 ]
 
----
-
-
-
----
-
-class: left, top
-
-##Conclusion
-
-###Overlooking time-of-blood draw may lead to false association in omics studies of Schizophrenia
-
----
-
-background-image: url(diff_phase.png)
-background-position: 15% 60% 
-background-size: 400px
-
 
 ---
 
@@ -284,8 +269,25 @@ class: left, top
 
 ---
 
+background-image: url(rho_table2.png)
+background-position: 50% 70%
+background-size: 800px
 
 
+###Correlation blood-brain DNAm  <br> 
+
+.enlarge[
+- Technological improvements:      EPIC (850K) vs 450K 
+- Blood between live brain samples:      r = 0.86 
+- CpGs identified within promoter: r = 0.92
+]
+
+
+
+.footnote[Braun _et al._, Translational Psychiatry, 2019]
+
+
+---
 background-image: url(Aringhieri2.jpg)
 background-position: 60% 75%
 background-size: 775px
@@ -295,6 +297,21 @@ class: left, top
 ###Antipsychotics and corresponding receptors
 
 .footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
+
+---
+
+###Methods <br> 
+
+.enlarge[
+1. Select SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
+1. Select samples with blood drawn within 4 months of interview date <br> <br>
+1. Compare AP use vs non AP use   <br> <br>
+1. Contrast mono-therapy against non-target polytherapy.  <br> <br>
+1. Identify CpGs, associated genes, and DMRs <br> <br>
+1. GSEA and pathyway analysis (i.e.GREAT) <br> <br>
+
+]
+
 
 ---
 
@@ -331,33 +348,54 @@ class: left, top
 
 ---
 
-background-image: url(ClinicalCourse_adapt.png, course_BPD.jpeg)
-background-position: 20% 25% 20% 25%
+class: top left
+### **Clinical Course of SCZ and BPD**
+
+.pull-left[
+![](ClinicalCourse_adapt.png)
+]
+
+.pull-right[
+![](course_BPD.jpeg)
+]
 
 
-pull.left[.footnote[McCutcheon _et al.,_ JAMA Psychiatry, 2020, Elanjithara, _et al.,_ 2011]]
-
-
-## **Clinical Course of SCZ and BPD**
-
-
-
+.pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
+.pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
 
 
 ---
-Elanjithara, T., Frangou, S., & McGuire, P. (2011)
 
+###Methods <br> <br>
+
+.enlarge[
+1. Select SCZ and BPD cases from Project 2 <br> <br>
+1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
+1. ENCODE reference  <br> <br>
+1. GSEA analysis  <br> <br>
+1. Pathway analysis (GREAT)
+]
+
+---
 
 ### References
+Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018]
 
-```{r refs, echo=FALSE, results="asis"}
-#PrintBibliography(myBib)
-```
+Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
 
-Slides created via the R packages:
+Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
 
-[**xaringan**](https://github.com/yihui/xaringan)<br>
-[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
+
+Oh & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Reviews Genetics_, 2021.
+
+Salas, _et al._, An optimized library for reference-based deconvolution of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC BeadArray, _Genome Biology_, 2018. 
+
+Smigielski, _et al_, Epigenetic mechanisms in schizophrenia and other psychotic disorders: a systematic review of empirical human ﬁndings, _Molecular Psychiatry_, 2020]
+
+Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
+
+Slides created via the R packages: *xaringan* and *xaringanthemer*
 
 ---
 
@@ -376,20 +414,18 @@ background-size: 600px
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
 **Colleagues in The Martens Group**<br><br><br>
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
-]
+]]
 
-<br><br/>
-<br/>
+
 ---
 
 
-
 class: left top inverse 
-#Conclusion of the public event
+#Conclusion of the public event <br> <br>
 
-###There will be 5-10 minutes of public discussion before conclusion of public presentation.
+##Any questions from the public?
 
-###The audience is then kindly requested to leave the room.
+
 
 ---
 
@@ -427,102 +463,43 @@ class: left top
 ---
 
 
+class: left top 
+
+###Technical Challenges <br>
+
+.bitty[
+- Currently no standardized pipeline for QC and EWAS (including DMRs and pathway analyses). <br><br>
+- EPIC probes biased for cancer genes. <br> <br>
+- EWAS literature (2011- 2020): <br><br>
+    - 47% pertains to Illumina 450K; <br><br>
+    - < 7% to EPIC (Wei _et al.,_ 2021) <br><br>
+- Small sample sizes may lack power. <br> <br>
+- Large meta-analyses are challenged with different study designs or methods. 
+]
+ 
+
+---
 
 class: left top 
-#Technical Challenges
 
+###Scientific Challenges <br> <br>
 
-There is currently no standardized EWAS pipeline for analysis. Findings from other research groups must be considered for study design, population, technical methods including:
- - Microarry (Illumina 450K vs. EPIC - 850K) 
- - Bisulfite sequencing
- - 
- - Small sample sizes vs. meta-analyses
- - Methods of detecting DMRs
- - Pathway analysis 
+.bitty[
+- We can´t control for all environmental factors. <br> <br>
+- The data available to us is derived from one blood sample. <br> <br>
+- Small sample sizes assayed on the chip provide analysis challenges (i.e. singularity)
  
- - something about QC and singularity issue with small sample size (insert image here of microarray)
- ???
- say something about bias for genes associated with cancer 
- Sugden paper
-
----
-
-
-class: left top 
-#Scientific Challenges
-
-- We can never control for all environmental factors that may influence the mental state of the individuals being studied. 
-
-- The data available to us is derived from one blood sample. 
- 
-- We need improved statistical tools to gain deeper understanding of our findings, especially when we have smaller sample sizes (i.e., target monotherapies). 
-
-- DNAm is dynamic and longitudinal studies are necessary to gain a more complete picture of the environmental impact being studied. 
-
-
-
----
-
-.pull-left[
-#### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
 ]
 
-.pull-right[
-
-#### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-]
-
----
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-
-
 
 ---
 
 
-layout: false
 
-## Square image
 
-<center><img src="https://octodex.github.com/images/labtocat.png" height="400px" /></center>
 
-.footnote[GitHub Octocat]
 
----
 
-### Wide image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-.footnote[Wide images scale to 100% slide width]
-
----
 
 ## Two images
 
