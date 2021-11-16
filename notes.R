@@ -1,8 +1,30 @@
+<br><br/>
+  <br/>
+]
+
+.pull-right[
+  background-image: url(course_BPD.jpeg)
+  background-position: 80% 65% 
+    background-size: 200px
+
+
+background-image: url
+background-position: 10% 20% 
+  background-size: 100px
+
+
 
 width = "110px",
 height = "128px"
 
 
+---
+  
+  
+  
+  background-image: url(diff_phase.png)
+background-position: 15% 60% 
+  background-size: 400px
 
 
 #Introduction 
