@@ -314,7 +314,7 @@ background-size: 800px
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
 1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical +𝜺<br> <br>
 1. Identify CpGs, associated genes, and DMRs <br> <br>
-1. GSEA and pathyway analysis (i.e.GREAT) <br> <br>
+1. GSEA and pathway analysis (i.e.GREAT) <br> <br>
 
 ]
 
