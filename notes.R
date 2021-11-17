@@ -2,6 +2,11 @@
   <br/>
 ]
 
+
+DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical +𝜺
+
+
+
 .pull-right[
   background-image: url(course_BPD.jpeg)
   background-position: 80% 65% 

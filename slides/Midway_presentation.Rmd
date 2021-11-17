@@ -207,10 +207,10 @@ class: left, top
 
 .enlarge[
 1. Selected SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
-1. Estimated cell-type proportions from DNAm data  *Salas _et al._, 2018* <br> <br>
+1. Estimated cell-type proportions from DNAm data (*Salas _et al._, 2018*) <br> <br>
 1. Compared linear regression models when adjusting for blood draw time.  <br> <br>
 1. Compared full day vs half day <br> <br>
-1. Sub-analyses: Neutrophil-to-lymphocyte ratio / Medication-free SCZ
+1. Sub-analyses: Neutrophil-to-lymphocyte ratio and Medication-free SCZ
 ]
 ---
 
@@ -223,7 +223,7 @@ class: left, top
 
 
 - Model 1: Cell-type proportions ~  Case_Control + Age + Sex + Smoking_score + Methbatch + 𝜺
-- Model 2: Cell-type proportions  ~ Case_Control + Age + Sex + Smoking_score + Methbatch + Hours_from_baseline + 𝜺
+- Model 2: Cell-type proportions ~ Case_Control + Age + Sex + Smoking_score + Methbatch + Hours_from_baseline + 𝜺
 
 
 ---
@@ -240,16 +240,18 @@ class: top left hide_logo
 
 ###Full day
 
+.bitty[
 - P-values reduced significance in Model 2
-- Diminished effect sizes in Model 2
+- Effect sizes diminished in Model 2
+]
 
 ###Half day
 
+.bitty[
 - P-values no change 
 - Effect sizes no change
-
 ]
-
+]
 
 ---
 
@@ -261,7 +263,7 @@ background-size: 525px
 
 class: left, top
 ###Project 2
-###Common and specific effects of antipsychotics associated with psychosis
+####Common and specific effects of antipsychotics associated with psychosis
 
 .pull-left[
 .footnote[Eugène Gabritschevsky, _Untitled_,1947]
@@ -278,7 +280,7 @@ background-size: 800px
 
 .enlarge[
 - Technological improvements:      EPIC (850K) vs 450K 
-- Blood between live brain samples:      r = 0.86 
+- Blood / live brain-tissue samples:      r = 0.86 
 - CpGs identified within promoter: r = 0.92
 ]
 
@@ -305,8 +307,9 @@ class: left, top
 .enlarge[
 1. Select SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
 1. Select samples with blood drawn within 4 months of interview date <br> <br>
-1. Compare AP use vs non AP use   <br> <br>
-1. Contrast mono-therapy against non-target polytherapy.  <br> <br>
+1. Common: Compare AP use vs non AP use   <br> <br>
+1. Specific: Contrast mono-therapy against non-target polytherapy.  <br> <br>
+1  Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + Cells + Technical +𝜺
 1. Identify CpGs, associated genes, and DMRs <br> <br>
 1. GSEA and pathyway analysis (i.e.GREAT) <br> <br>
 
@@ -371,6 +374,7 @@ class: top left
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 <br> <br>
 1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺
 1. ENCODE reference  <br> <br>
 1. GSEA analysis  <br> <br>
 1. Pathway analysis (GREAT)
