@@ -121,13 +121,16 @@ xaringanExtra::use_tile_view()
 ###Objectives of this PhD work <br />
 
 ###**General aim**
+.bitty[
  - To identify epigenetic marks associated with psychosis and treatment effects <br />
+]
 
 ###**Specific aims**
+.bitty[
   -  Investigate time-of-blood draw on cell-type proportions in SCZ
   -  Common and specific effects of antipsychotic drugs in SCZ, BPD, MDD
   -  Disorder specific effects of SCZ vs BPD 
-  
+]  
 ---
 
 class: hide_logo
@@ -180,7 +183,7 @@ background-image: url(time_sensitive.png)
 background-position:50% 60%
 background-size: 625px
 
-.footnote[Oh & Petronis, Nature Reviews Genetics, 2021]
+.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
 ### **Time-sensitive DNAm**
 
@@ -205,9 +208,9 @@ class: left, top
 
 ###Methods <br> <br>
 
-.enlarge[
+.bitty[
 1. Selected SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
-1. Estimated cell-type proportions from DNAm data (*Salas _et al._, 2018*) <br> <br>
+1. Estimated cell-type proportions from DNAm data (*Salas, _et al._, 2018*) <br> <br>
 1. Compared linear regression models when adjusting for blood draw time.  <br> <br>
 1. Compared full day vs half day <br> <br>
 1. Sub-analyses: Neutrophil-to-lymphocyte ratio and Medication-free SCZ
@@ -263,7 +266,7 @@ background-size: 525px
 
 class: left, top
 ###Project 2
-####Common and specific effects of antipsychotics associated with psychosis
+###Common and specific effects of antipsychotics associated with psychosis
 
 .pull-left[
 .footnote[Eugène Gabritschevsky, _Untitled_,1947]
@@ -271,25 +274,6 @@ class: left, top
 
 ---
 
-background-image: url(rho_table2.png)
-background-position: 50% 70%
-background-size: 800px
-
-
-###Correlation blood-brain DNAm  <br> 
-
-.enlarge[
-- Technological improvements:      EPIC (850K) vs 450K 
-- Blood / live brain-tissue samples:      r = 0.86 
-- CpGs identified within promoter: r = 0.92
-]
-
-
-
-.footnote[Braun _et al._, Translational Psychiatry, 2019]
-
-
----
 background-image: url(Aringhieri2.jpg)
 background-position: 60% 75%
 background-size: 775px
@@ -301,15 +285,34 @@ class: left, top
 .footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
 
 ---
+background-image: url(rho_table2.png)
+background-position: 50% 70%
+background-size: 800px
+
+
+###Correlation blood-brain DNAm  <br> 
+
+.bitty[
+- Technological improvements:      EPIC (850K) vs 450K 
+- Blood / live brain-tissue samples:      r = 0.86 
+- CpGs identified within promoter: r = 0.92
+]
+
+
+.footnote[Braun _et al._, Translational Psychiatry, 2019]
+
+---
+
+
 
 ###Methods <br> 
 
-.enlarge[
+.bitty[
 1. Select SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
 1. Select samples with blood drawn within 4 months of interview date <br> <br>
-1. Common: Compare AP use vs non AP use   <br> <br>
-1. Specific: Contrast mono-therapy against non-target polytherapy.  <br> <br>
-1  Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + Cells + Technical +𝜺
+1. **Common**: Compare AP-use vs non AP-use   <br> <br>
+1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
+1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical +𝜺<br> <br>
 1. Identify CpGs, associated genes, and DMRs <br> <br>
 1. GSEA and pathyway analysis (i.e.GREAT) <br> <br>
 
