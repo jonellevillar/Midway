@@ -76,7 +76,6 @@ xaringanExtra::use_tile_view()
 ```
 
 
-
 ```{css extra.css, echo=FALSE}
 
 .bitty { 
@@ -94,7 +93,9 @@ xaringanExtra::use_tile_view()
 ```
 
 
+---
 
+class:hide_logo
 
 ###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder**<br><br>
 
@@ -105,8 +106,6 @@ xaringanExtra::use_tile_view()
                   Ingrid Melle, UiO<br><br><br>
                   July 1, 2019 - June 30, 2023
 ]]              
-
-
 
 ---
 
@@ -127,9 +126,9 @@ xaringanExtra::use_tile_view()
 
 ###**Specific aims**
 .bitty[
-  -  Investigate time-of-blood draw on cell-type proportions in SCZ
-  -  Common and specific effects of antipsychotic drugs in SCZ, BPD, MDD
-  -  Disorder specific effects of SCZ vs BPD 
+ 1. Investigate time-of-blood draw on cell-type proportions in SCZ <br> <br />
+ 1. Common and specific effects of antipsychotic drugs in SCZ, BPD, MDD <br> <br />
+ 1. Disorder specific effects of SCZ vs BPD 
 ]  
 ---
 
@@ -168,7 +167,7 @@ background-image: url(time-naive.png)
 background-position:50% 60%
 background-size: 625px
 
-.footnote[Oh & Petronis, Nature Reviews Genetics, 2021]
+.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
 
 
@@ -285,17 +284,19 @@ class: left, top
 .footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
 
 ---
-### Characteristics of AP and associated DNAm
+
+### Pharmacoepigenetic findings in psychiatry 
 
 .bitty[
-- Clinical reponse: D2 blockade in striatum is key (*Kaar, _et al._, 2021)
-- AP drugs vary in their affinities for neuroreceptors
-
-- Gender difference: Females respond to lower doses/changes in reproductive periods (*)
+- DNAm associated with both the pathology and drug treatment (Jaffe, _et al._, 2016) <br> <br>
+- (Alladi, _et al._, 2018) <br> <br>
+- (Burghardt, _et al._, 2020) <br> <br>
+- BDNF was consistent with DNAm changes for MDD (Zhou _et al_, 2021)
 
 
 ]
 ---
+
 background-image: url(rho_table2.png)
 background-position: 50% 70%
 background-size: 800px
@@ -304,7 +305,7 @@ background-size: 800px
 ###Correlation blood-brain DNAm  <br> 
 
 .bitty[
-- Technological improvements:      EPIC (850K) vs 450K 
+- Technological improvements:  450K vs. EPIC (850K)  
 - Blood / live brain-tissue samples:      r = 0.86 
 - CpGs identified within promoter: r = 0.92
 ]
@@ -323,8 +324,8 @@ background-size: 800px
 1. Select samples with blood drawn within 4 months of interview date <br> <br>
 1. **Common**: Compare AP-use vs non AP-use   <br> <br>
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
-1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical +𝜺<br> <br>
-1. Identify CpGs, associated genes, and DMRs <br> <br>
+1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical + 𝜺<br> <br>
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation lib.), and DMRs (_Demarcate_)<br> <br>
 1. GSEA and pathway analysis (i.e.GREAT) <br> <br>
 
 ]
@@ -332,6 +333,7 @@ background-size: 800px
 
 ---
 
+###Preliminary distributions - four targets mono-therapies 
 
 class: left, top
 
@@ -365,9 +367,11 @@ class: left, top
 
 ---
 ###Characteristics 
--Up to 80% of patients with SCZ have some form of cognitive impairment (Reichenberg,_et al._, 2009), which may predate the onset of schizophrenia (Bora and Murray, 2014)
+- Up to 80% of patients with SCZ have some form of cognitive impairment (Reichenberg,_et al._, 2009), which may predate the onset of schizophrenia (Bora and Murray, 2014)
 
+- Intelligence
 
+- Development
 
 
 ---
