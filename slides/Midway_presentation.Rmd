@@ -285,6 +285,17 @@ class: left, top
 .footnote[Aringhieri _et al_, Pharmacology & Therapeutics, 2018]
 
 ---
+### Characteristics of AP and associated DNAm
+
+.bitty[
+- Clinical reponse: D2 blockade in striatum is key (*Kaar, _et al._, 2021)
+- AP drugs vary in their affinities for neuroreceptors
+
+- Gender difference: Females respond to lower doses/changes in reproductive periods (*)
+
+
+]
+---
 background-image: url(rho_table2.png)
 background-position: 50% 70%
 background-size: 800px
