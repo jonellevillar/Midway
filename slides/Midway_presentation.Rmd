@@ -338,10 +338,10 @@ class: left, top
 
 ###Identify DNA methylation associated with treatment effects of antipsychotics in psychosis 
 
-###- Aripiprazole
-###- Olanzapine
-###- Quetiapine
-###- Risperidone 
+###- Aripiprazole - partial agonism D2/3 
+###- Olanzapine -  5-HT2A H1 a1, M1
+###- Quetiapine - receptor affinity D2/3  H1
+###- Risperidone - receptor affinity 5-HT2A relative to D2/3 blockade
 
 ---
 
@@ -360,6 +360,13 @@ class: left, top
 .pull-left[
 .footnote[Eugène Gabritschevsky, _Untitled_,1949]
 ]
+
+
+
+---
+###Characteristics 
+-Up to 80% of patients with SCZ have some form of cognitive impairment (Reichenberg,_et al._, 2009), which may predate the onset of schizophrenia (Bora and Murray, 2014)
+
 
 
 
