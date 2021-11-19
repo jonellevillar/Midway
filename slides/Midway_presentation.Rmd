@@ -78,6 +78,10 @@ xaringanExtra::use_tile_view()
 
 ```{css extra.css, echo=FALSE}
 
+.small { 
+  font-size: 0.75em
+}  
+
 .bitty { 
     font-size: 1.25em;
 }
@@ -126,9 +130,10 @@ class:hide_logo
 
 ###**Specific aims**
 .bitty[
- 1. Investigate time-of-blood draw on cell-type proportions in SCZ <br> <br />
- 1. Common and specific effects of antipsychotic drugs in SCZ, BPD, MDD <br> <br />
- 1. Disorder specific effects of SCZ vs BPD 
+1. Association of SCZ vs. controls on cell-type proportions is impacted by time-of-blood draw <br> <br />
+2. Common and specific effects of antipsychotic drugs in psychosis <br> <br />
+3. Disorder specific effects of SCZ vs. BPD <br> <br />
+4. Evaluate whether any specific effects are associated with developmental timing 
 ]  
 ---
 
@@ -149,17 +154,38 @@ background-size: 750px
 ---
 
 
-###Characteristics of DNAm  <br> <br>
+###Role of DNAm in psychiatric disorders   
 
-.enlarge[
-- Essential role in tissue differentiation (Reike) <br> <br>
-- Key role in determining transcription factor binding and enhancer function (Ziller) <br> <br>
-- Highly malleable; influenced by many environmental exposures, i.e. levels of _in utero_ nutrients and smoking <br> <br>
-- Overtime changes as a function of age, cancer, and complex diseases <br> 
+.bitty[
+- Regulation of gene transcription <br> <br>
+- Inheritance of epigenetic profile in somatic cells during mitosis (Petronis & Mill) <br> <br>
+- Dynamic; influenced by many environmental exposures (Greenberg and Bourc’his, 2019) <br> <br>
+- Overtime changes as a function of age, cancer, and complex diseases 
 ]
+
 
 ---
 
+class: hide_logo
+
+###Advances in Epigenomic Wide Association Studies (EWAS)] <br> <br>
+
+.bitty[
+- 1st generation: Case-Control (Rakyan, _et al._, 2011) <br> <br>
+- 2nd generation: Cellular heterogeneity (Jaffe & Irizarry, 2014, Lappalainen & Greally, 2017) <br> <br>
+- 3rd generation: Temporal dimension: "chrono-epigenetics" (Oh, E. & Petronis, 2021)
+]
+
+
+---
+
+###Circadian rhythms and chrono-epigenetics 
+
+- Methyl cycle is the universal pathway that provides methyl groups 
+- Co-evolution of methyl cycle and circadian clocks (Fustin, _et al._, 2020) 
+- Clock gene: BAML associated with DISC1 in SCZ (Lee, _et al._, 2021)
+
+---
 
 class: hide_logo
 
@@ -256,7 +282,6 @@ class: top left hide_logo
 ]
 
 ---
-
 
 
 background-image: url(1947superJumbo.jpg)
@@ -408,23 +433,37 @@ class: top left
 ---
 
 ### References
-Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018]
+
+.small[
+Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018.
+
+Bhadra, _et al._, Evolution of circadian rhythms: from bacteria to human, _Sleep Medicine_, 2017.
 
 Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
 
 Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
 
+Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
+
+Jaffe & Irizarry, Accounting for cellular heterogeneity is critical in epigenome-wide association studies, _Genome Biology, 2014.
+
+Lappalainen & Greally, Associating cellular epigenetic models with human phenotypes, _Nature Rev Genetics_, 2017.
+
+Lee, _et al._, Disrupted-in-schizophrenia 1 enhances the quality of circadian rhythm by stabilizing BMAL1, _Translational Psychiatry_, 2021.
+
 McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
 
-Oh & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Reviews Genetics_, 2021.
+Oh & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
+
+Rakyan, _et al._, Epigenome-wide association studies for common human diseases, _Nature Rev Genetics_, 2011.
 
 Salas, _et al._, An optimized library for reference-based deconvolution of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC BeadArray, _Genome Biology_, 2018. 
 
-Smigielski, _et al_, Epigenetic mechanisms in schizophrenia and other psychotic disorders: a systematic review of empirical human ﬁndings, _Molecular Psychiatry_, 2020]
+Smigielski, _et al_, Epigenetic mechanisms in schizophrenia and other psychotic disorders: a systematic review of empirical human ﬁndings, _Molecular Psychiatry_, 2020.
 
 Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
 
-Slides created via the R packages: *xaringan* and *xaringanthemer*
+]
 
 ---
 
@@ -450,17 +489,16 @@ background-size: 600px
 
 
 class: left top inverse 
-#Conclusion of the public event <br> <br>
+###Conclusion of the public event <br> <br>
 
-##Any questions from the public?
+##Happy to take questions
 
 
 
 ---
 
 
-
-background-image: url(slides/ECT3.png)
+background-image: url(ECT3.png)
 background-position: 50% 65%
 background-size: 600px
 
@@ -469,8 +507,7 @@ class: left top
 
 ---
 
-
-background-image: url(slides/posters3.png)
+background-image: url(posters3.png)
 background-position: contain
 background-size: 800px
 
@@ -480,9 +517,7 @@ class: left top
 
 ---
 
-
-
-background-image: url(slides/Plan3.png)
+background-image: url(Plan3.png)
 background-position: 50% 65%
 background-size: 675px
 
@@ -516,8 +551,8 @@ class: left top
 .bitty[
 - We can´t control for all environmental factors. <br> <br>
 - The data available to us is derived from one blood sample. <br> <br>
-- Small sample sizes assayed on the chip provide analysis challenges (i.e. singularity)
- 
+- Small sample sizes assayed on the chip provide analysis challenges (i.e. singularity) <br> <br>
+
 ]
 
 
@@ -530,15 +565,4 @@ class: left top
 
 
 
-## Two images
-
-.pull-left[
-![](https://octodex.github.com/images/motherhubbertocat.png)
-]
-
-.pull-right[
-![](https://octodex.github.com/images/dinotocat.png)
-]
-
----
 
