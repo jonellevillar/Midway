@@ -8,11 +8,12 @@
   color: "#eaeaea"
 }
 
-
+.small { 
+  font-size: 0.75em
+} 
 
 /* Extra CSS */
-.small {
-  font-size: 90%;
+
 }
 .full-width {
   display: flex;
