@@ -181,9 +181,9 @@ class: hide_logo
 
 ###Circadian rhythms and chrono-epigenetics 
 
-- Methyl cycle is the universal pathway that provides methyl groups 
-- Co-evolution of methyl cycle and circadian clocks (Fustin, _et al._, 2020) 
-- Clock gene: BAML associated with DISC1 in SCZ (Lee, _et al._, 2021)
+- Methyl cycle is the universal pathway that provides methyl groups <br> <br>
+- Co-evolution of methyl cycle and circadian clocks (Fustin, _et al._, 2020) <br> <br>
+- DISC1 in SCZ associated with clock genes (Lee, _et al._, 2021)
 
 ---
 
@@ -489,7 +489,7 @@ background-size: 600px
 
 
 class: left top inverse 
-###Conclusion of the public event <br> <br>
+##Conclusion of the public event <br> <br>
 
 ##Happy to take questions
 
@@ -556,7 +556,6 @@ class: left top
 ]
 
 
----
 
 
 
