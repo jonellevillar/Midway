@@ -158,32 +158,21 @@ background-size: 750px
 
 .bitty[
 - Regulation of gene transcription <br> <br>
-- Inheritance of epigenetic profile in somatic cells during mitosis (Petronis & Mill) <br> <br>
+- Something twins studies <br> <br>
 - Dynamic; influenced by many environmental exposures (Greenberg and Bourc’his, 2019) <br> <br>
-- Overtime changes as a function of age, cancer, and complex diseases 
+- Overtime changes as a function of age and chronicity of the disorder 
 ]
 
 
 ---
 
-class: hide_logo
-
-###Advances in Epigenomic Wide Association Studies (EWAS)] <br> <br>
+###Circadian rhythms and "chrono-epigenetics" 
 
 .bitty[
-- 1st generation: Case-Control (Rakyan, _et al._, 2011) <br> <br>
-- 2nd generation: Cellular heterogeneity (Jaffe & Irizarry, 2014, Lappalainen & Greally, 2017) <br> <br>
-- 3rd generation: Temporal dimension: "chrono-epigenetics" (Oh, E. & Petronis, 2021)
-]
-
-
----
-
-###Circadian rhythms and chrono-epigenetics 
-
-- Methyl cycle is the universal pathway that provides methyl groups <br> <br>
+- Circadian rhythms are disrupted in serious mental disorders  <br> <br>
 - Co-evolution of methyl cycle and circadian clocks (Fustin, _et al._, 2020) <br> <br>
-- DISC1 in SCZ associated with clock genes (Lee, _et al._, 2021)
+- DISC1 in SCZ regulates stability of clock gene BMAL1 (Lee, _et al._, 2021)
+]
 
 ---
 
@@ -197,7 +186,7 @@ background-size: 625px
 
 
 
-### **Time-naive DNAm**
+### **Time-naive DNAm measurement**
 
 
 ---
@@ -210,7 +199,7 @@ background-size: 625px
 
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
-### **Time-sensitive DNAm**
+### **Time-sensitive DNAm measurement**
 
 
 ---
@@ -392,11 +381,13 @@ class: left, top
 
 ---
 ###Characteristics 
-- Up to 80% of patients with SCZ have some form of cognitive impairment (Reichenberg,_et al._, 2009), which may predate the onset of schizophrenia (Bora and Murray, 2014)
+- SCZ: Up to 80%  have some form of cognitive impairment (Reichenberg,_et al._, 2009), which may predate the onset (Bora and Murray, 2014)
 
-- Intelligence
+- BPD: Episodes of extreme mood swings, divergent energy levels
 
-- Development
+- Intelligence:
+
+- Development:
 
 
 ---
@@ -437,9 +428,9 @@ class: top left
 .small[
 Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018.
 
-Bhadra, _et al._, Evolution of circadian rhythms: from bacteria to human, _Sleep Medicine_, 2017.
-
 Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
+
+Dempster, _et al._, Disease-associated epigenetic changes in monozygotic twins discordant for schizophrenia and bipolar disorder, _Human Molecular Genetics_, 2011.
 
 Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
 
