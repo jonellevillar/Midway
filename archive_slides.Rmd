@@ -1,0 +1,23 @@
+---
+title: "archive_slides"
+author: "Jonelle"
+date: "11/20/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+class: hide_logo
+
+###Advances in Epigenomic Wide Association Studies (EWAS) <br> <br>
+
+.bitty[
+- 1st generation: Case-Control (Rakyan, _et al._, 2011) <br> <br>
+- 2nd generation: Cellular heterogeneity (Jaffe & Irizarry, 2014, Lappalainen & Greally, 2017) <br> <br>
+- 3rd generation: Temporal dimension: "chrono-epigenetics" (Oh, E. & Petronis, 2021)
+]
+
+---
