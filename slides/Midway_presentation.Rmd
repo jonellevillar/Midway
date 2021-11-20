@@ -381,13 +381,23 @@ class: left, top
 
 ---
 ###Characteristics 
-- SCZ: Up to 80%  have some form of cognitive impairment (Reichenberg,_et al._, 2009), which may predate the onset (Bora and Murray, 2014)
 
-- BPD: Episodes of extreme mood swings, divergent energy levels
+###Similarities
+
+- Early age of onset ~ 20-30 years old <br> <br>
+- Heritability ~ 80% 
+- Periods of stability and relapse <br> <br>
+- Dysregulated circadian rhythmicity: both a trait and state marker (Walker) <br> <br>
+- Medication primary form of treatment: evidence of circadian rhythm normalization (W)
+
+### Differences 
+- SCZ: Cognitive impairment (up to 80%) (Reichenberg,_et al._, 2009) <br> <br>
+
+- BPD: Episodes of extreme mood swings and divergent energy levels <br> <br>
 
 - Intelligence:
 
-- Development:
+
 
 
 ---
@@ -451,6 +461,8 @@ Rakyan, _et al._, Epigenome-wide association studies for common human diseases, 
 Salas, _et al._, An optimized library for reference-based deconvolution of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC BeadArray, _Genome Biology_, 2018. 
 
 Smigielski, _et al_, Epigenetic mechanisms in schizophrenia and other psychotic disorders: a systematic review of empirical human ﬁndings, _Molecular Psychiatry_, 2020.
+
+Walker II, _et al._, Circadian rhythm disruption and mental health, _Translational Psychiatry_, 2020.
 
 Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
 
