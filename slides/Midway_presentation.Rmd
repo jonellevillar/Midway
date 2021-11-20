@@ -387,7 +387,7 @@ class: left, top
 - Early age of onset ~ 20-30 years old <br> <br>
 - Heritability ~ 80% 
 - Periods of stability and relapse <br> <br>
-- Dysregulated circadian rhythmicity: both a trait and state marker (Walker) <br> <br>
+- Dysregulated circadian rhythmicity: both a trait and state marker (Walker, _et al._, 2020) <br> <br>
 - Medication primary form of treatment: evidence of circadian rhythm normalization (W)
 
 ### Differences 
@@ -397,9 +397,9 @@ class: left, top
 
 - Intelligence:
 
+- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014)
 
-
-
+- Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018)
 ---
 
 class: top left
