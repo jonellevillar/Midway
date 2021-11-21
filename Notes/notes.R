@@ -3,6 +3,18 @@
 ]
 
 
+class: left, top
+
+
+###Identify DNA methylation associated with treatment effects of antipsychotics in psychosis 
+
+###- Aripiprazole - partial agonism D2/3 
+###- Olanzapine -  5-HT2A H1 a1, M1
+###- Quetiapine - receptor affinity D2/3  H1
+###- Risperidone - receptor affinity 5-HT2A relative to D2/3 blockade
+
+---
+
 DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical +𝜺
 
 
