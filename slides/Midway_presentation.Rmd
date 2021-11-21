@@ -154,19 +154,20 @@ background-size: 750px
 ---
 
 
-###Role of DNAm in psychiatric disorders   
+###Epigenetics in psychiatric disorders  <br> <br> 
 
 .bitty[
-- Regulation of gene transcription <br> <br>
-- Something twins studies <br> <br>
-- Dynamic; influenced by many environmental exposures (Greenberg and Bourc’his, 2019) <br> <br>
-- Overtime changes as a function of age and chronicity of the disorder 
+- Development: prenatal environmental factors _in utero_ <br> <br>
+- MZ twins discordant for SCZ/BPD show DNAm associated differences (Dempster, _et al._, 2011) <br> <br>
+- Dynamic; influenced by many environmental exposures - trauma, adversity, life-style <br> <br>
+- DNAm profiles associated with brain volume, structure and function; social & cognitive function (Starnawska & Demontis, 2021)<br> <br>
+- Changes overtime as a function of age and chronicity of the disorder 
 ]
 
 
 ---
 
-###Circadian rhythms and "chrono-epigenetics" 
+###Circadian rhythms and "chrono-epigenetics" <br> <br> 
 
 .bitty[
 - Circadian rhythms are disrupted in serious mental disorders  <br> <br>
@@ -180,7 +181,7 @@ class: hide_logo
 
 background-image: url(time-naive.png)
 background-position:50% 60%
-background-size: 625px
+background-size: 615px
 
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
@@ -195,7 +196,7 @@ class: hide_logo
 
 background-image: url(time_sensitive.png)
 background-position:50% 60%
-background-size: 625px
+background-size: 615px
 
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
@@ -223,7 +224,8 @@ class: left, top
 ###Methods <br> <br>
 
 .bitty[
-1. Selected SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
+1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
+1. Samples matched for age and gender <br> <br>
 1. Estimated cell-type proportions from DNAm data (*Salas, _et al._, 2018*) <br> <br>
 1. Compared linear regression models when adjusting for blood draw time.  <br> <br>
 1. Compared full day vs half day <br> <br>
@@ -302,12 +304,12 @@ class: left, top
 ### Pharmacoepigenetic findings in psychiatry 
 
 .bitty[
-- DNAm associated with both the pathology and drug treatment (Jaffe, _et al._, 2016) <br> <br>
-- (Alladi, _et al._, 2018) <br> <br>
-- (Burghardt, _et al._, 2020) <br> <br>
-- BDNF was consistent with DNAm changes for MDD (Zhou _et al_, 2021)
-
-
+- Early stages <br> <br>
+  - Study design, technology, patient population, lack of replication <br> <br>
+  - No uniform identification of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_) (Burghardt, _et al._, 2020, Zhou _et al_, 2021) <br> <br>
+  - Lacking studies of AP monotherapy (Burghardt, _et al._, 2020) <br> <br>
+  - DNAm associated with both the pathology and treatment (Jaffe, _et al._, 2016) <br> <br>
+  - Tissue issue - relevance of peripheral blood (Bakulski, _et al._, 2016)
 ]
 ---
 
@@ -334,13 +336,13 @@ background-size: 800px
 ###Methods <br> 
 
 .bitty[
-1. Select SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
+1. Select European SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
 1. Select samples with blood drawn within 4 months of interview date <br> <br>
 1. **Common**: Compare AP-use vs non AP-use   <br> <br>
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
 1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical + 𝜺<br> <br>
-1. Identify CpGs (_limma_), associated genes (_Illumina annotation lib.), and DMRs (_Demarcate_)<br> <br>
-1. GSEA and pathway analysis (i.e.GREAT) <br> <br>
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation), and DMRs (_Demarcate_) <br> <br>
+1. GSEA and pathway analysis (GREAT) <br> <br>
 
 ]
 
@@ -384,22 +386,26 @@ class: left, top
 
 ###Similarities
 
+.bitty[
 - Early age of onset ~ 20-30 years old <br> <br>
-- Heritability ~ 80% 
+- Heritability ~ 80% <br> <br>
 - Periods of stability and relapse <br> <br>
 - Dysregulated circadian rhythmicity: both a trait and state marker (Walker, _et al._, 2020) <br> <br>
 - Medication primary form of treatment: evidence of circadian rhythm normalization (W)
+]
 
 ### Differences 
+
+.bitty[
 - SCZ: Cognitive impairment (up to 80%) (Reichenberg,_et al._, 2009) <br> <br>
 
 - BPD: Episodes of extreme mood swings and divergent energy levels <br> <br>
 
-- Intelligence:
-
 - Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014)
 
 - Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018)
+
+]
 ---
 
 class: top left
@@ -420,15 +426,18 @@ class: top left
 
 ---
 
+IGNF
+Caspi? 
+
+---
 ###Methods <br> <br>
 
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 <br> <br>
 1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
 1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺
-1. ENCODE reference  <br> <br>
-1. GSEA analysis  <br> <br>
-1. Pathway analysis (GREAT)
+1. GSEA and pathway analyses (GREAT) <br> <br>
+1. Compare findings to GWAS 
 ]
 
 ---
@@ -437,6 +446,8 @@ class: top left
 
 .small[
 Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018.
+
+Bakulski, _et al._, Epigenetic Research in Neuropsychiatric Disorders: the “Tissue Issue”, _Curr Behav Neurosci Rep., 2016.
 
 Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
 
@@ -469,9 +480,10 @@ Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
 ]
 
 ---
+### References
 
 
-
+---
 class: center, top
 
 background-image: url(Martens_lab_2021.jpg)
