@@ -390,21 +390,18 @@ class: left, top
 - Early age of onset ~ 20-30 years old <br> <br>
 - Heritability ~ 80% <br> <br>
 - Periods of stability and relapse <br> <br>
-- Dysregulated circadian rhythmicity: both a trait and state marker (Walker, _et al._, 2020) <br> <br>
-- Medication primary form of treatment: evidence of circadian rhythm normalization (W)
+- Dysregulated circadian rhythmicity: both a trait and state marker (Walker II, _et al._, 2020) <br> <br>
+- Medication primary form of treatment 
 ]
 
 ### Differences 
 
 .bitty[
-- SCZ: Cognitive impairment (up to 80%) (Reichenberg,_et al._, 2009) <br> <br>
+- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) <br />
+- Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018) <br />
+- Clinical differences behavioral, cognition, intelligence (Reichenberg,_et al._, 2009) <br /> 
 
-- BPD: Episodes of extreme mood swings and divergent energy levels <br> <br>
-
-- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014)
-
-- Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018)
-
+- 
 ]
 ---
 
@@ -450,6 +447,8 @@ Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanis
 Bakulski, _et al._, Epigenetic Research in Neuropsychiatric Disorders: the “Tissue Issue”, _Curr Behav Neurosci Rep., 2016.
 
 Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
+
+Caspi, _et al._, Longitudinal Assessment of Mental Health Disorders and Comorbidities Across 4 Decades Among Participants in the Dunedin Birth Cohort Study, _JAMA Network Open_, 2020.
 
 Dempster, _et al._, Disease-associated epigenetic changes in monozygotic twins discordant for schizophrenia and bipolar disorder, _Human Molecular Genetics_, 2011.
 
