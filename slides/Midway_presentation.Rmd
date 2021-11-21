@@ -158,10 +158,11 @@ background-size: 750px
 
 .bitty[
 - Development: prenatal environmental factors _in utero_ <br> <br>
-- MZ twins discordant for SCZ/BPD show DNAm associated differences (Dempster, _et al._, 2011) <br> <br>
-- Dynamic; influenced by many environmental exposures - trauma, adversity, life-style <br> <br>
-- DNAm profiles associated with brain volume, structure and function; social & cognitive function (Starnawska & Demontis, 2021)<br> <br>
-- Changes overtime as a function of age and chronicity of the disorder 
+- MZ twins discordant for SCZ/BPD (Dempster, _et al._, 2011) <br> <br>
+- Dynamic; many environmental exposures - trauma, adversity, life-style <br> <br>
+- Associated with brain volume, structure and function; <br> <br>
+    - social and cognitive function (Starnawska & Demontis, 2021) <br> <br>
+- DNAm changes overtime as a function of age and chronicity of the disorder 
 ]
 
 
@@ -170,39 +171,30 @@ background-size: 750px
 ###Circadian rhythms and "chrono-epigenetics" <br> <br> 
 
 .bitty[
-- Circadian rhythms are disrupted in serious mental disorders  <br> <br>
-- Co-evolution of methyl cycle and circadian clocks (Fustin, _et al._, 2020) <br> <br>
-- DISC1 in SCZ regulates stability of clock gene BMAL1 (Lee, _et al._, 2021)
+- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
+- Circadian rhythms are disrupted in serious mental disorders (Walker II, _et al._, 2020) <br> <br>
+- Chrono-epigenetics: <br> <br>
+    - temporal dynamics of epigenetic processes (Oh, E. & Petronis, 2021)
 ]
 
 ---
 
 class: hide_logo
 
-background-image: url(time-naive.png)
-background-position:50% 60%
+background-image: url(Sim_officeHours.png)
+background-position:90% 60%
 background-size: 615px
 
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
+### **Epigenetic oscillations**<br> 
+
+.bitty[
+- blood collection office hours
+- assume same time cases/controls
 
 
-### **Time-naive DNAm measurement**
-
-
----
-
-class: hide_logo
-
-background-image: url(time_sensitive.png)
-background-position:50% 60%
-background-size: 615px
-
-.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
-
-### **Time-sensitive DNAm measurement**
-
-
+]
 ---
 
 
@@ -331,8 +323,6 @@ background-size: 800px
 
 ---
 
-
-
 ###Methods <br> 
 
 .bitty[
@@ -348,21 +338,6 @@ background-size: 800px
 
 
 ---
-
-###Preliminary distributions - four targets mono-therapies 
-
-class: left, top
-
-
-###Identify DNA methylation associated with treatment effects of antipsychotics in psychosis 
-
-###- Aripiprazole - partial agonism D2/3 
-###- Olanzapine -  5-HT2A H1 a1, M1
-###- Quetiapine - receptor affinity D2/3  H1
-###- Risperidone - receptor affinity 5-HT2A relative to D2/3 blockade
-
----
-
 
 
 background-image: url(Sans-titre-1949-Gouache-sur-papier.jpg)
@@ -400,8 +375,6 @@ class: left, top
 - Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) <br />
 - Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018) <br />
 - Clinical differences behavioral, cognition, intelligence (Reichenberg,_et al._, 2009) <br /> 
-
-- 
 ]
 ---
 
