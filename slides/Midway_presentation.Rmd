@@ -224,9 +224,11 @@ class: left, top
 .bitty[
 1. DNA extraction from blood samples by FHI <br> <br>
 1. State-of-the art microarray analysis: **Illumina EPIC 850K**  <br> <br>
-1. QC: Three phases of TOP methylation data QCed separately and then merged  <br> <br>
+1. QC: Three phases of TOP methylation data QCed separately and then merged <br> <br> 
+    - Removal of probes, PCA, FunnNorm, SVD, Combat <br> <br>
 1. Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) <br> <br>
 1. Evaluated quality of cell-type estimation with Deconvolution Specific Root Mean Squared Error (DSRMSE) Vellame, _et al._, 2020. 
+1. Calculated smoking score: (Li, _et al._, 2018)
 ]
 
 ---
@@ -237,6 +239,7 @@ class: left, top
 .bitty[
 1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
 1. Samples matched for age and gender <br> <br>
+1. Evaluated correlation between PCA and variables including batch effects <br> <br>
 1. Performed linear regression on cell-type ~ AMP plate <br> <br>
 1. Removed samples with DSRMSE < 0.06 <br> <br>
 1. Performed linear regression on residuals from Step 3 <br> <br>
@@ -438,7 +441,7 @@ class: top left
 1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
 1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺<br> <br>
 1. GSEA and pathway analyses (GREAT) <br> <br>
-1. Compare findings to GWAS 
+1. Compare annotated genes to GWAS findings
 ]
 
 ---
@@ -456,6 +459,8 @@ Dempster, _et al._, Disease-associated epigenetic changes in monozygotic twins d
 
 Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
 
+Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
+
 ]
 
 ---
@@ -463,8 +468,6 @@ Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances 
 ### References cont.
 
 .bitty[
-
-Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
 
 Jaffe & Irizarry, Accounting for cellular heterogeneity is critical in epigenome-wide association studies, _Genome Biology, 2014.
 
@@ -472,7 +475,11 @@ Lappalainen & Greally, Associating cellular epigenetic models with human phenoty
 
 Lee, _et al._, Disrupted-in-schizophrenia 1 enhances the quality of circadian rhythm by stabilizing BMAL1, _Translational Psychiatry_, 2021.
 
+Li, _et al._, Causal effect of smoking on DNA methylation in peripheral blood: a twin and family study, _Clinical Epigenetics_, 2018.
+
 McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
+
+Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
 
 ]
 
@@ -480,8 +487,6 @@ McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
 ### References cont.
 
 .bitty[
-
-Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
 
 Rakyan, _et al._, Epigenome-wide association studies for common human diseases, _Nature Rev Genetics_, 2011.
 
