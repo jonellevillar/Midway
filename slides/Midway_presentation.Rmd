@@ -218,15 +218,31 @@ class: left, top
 ---
 
 
-###Methods <br> <br>
+###Methods: Pre-data analysis
+
+
+.bitty[
+1. DNA extraction from blood samples by FHI <br> <br>
+1. State-of-the art microarray analysis: **Illumina EPIC 850K**  <br> <br>
+1. QC: Three phases of TOP methylation data QCed separately and then merged  <br> <br>
+1. Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) <br> <br>
+1. Evaluated quality of cell-type estimation with Deconvolution Specific Root Mean Squared Error (DSRMSE) Vellame, _et al._, 2020. 
+]
+
+---
+
+###Methods: Analysis pipeline 
+
 
 .bitty[
 1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
 1. Samples matched for age and gender <br> <br>
-1. Estimated cell-type proportions from DNAm data (*Salas, _et al._, 2018*) <br> <br>
-1. Compared linear regression models when adjusting for blood draw time.  <br> <br>
-1. Compared full day vs half day <br> <br>
-1. Sub-analyses: Neutrophil-to-lymphocyte ratio and Medication-free SCZ
+1. Performed linear regression on cell-type ~ AMP plate <br> <br>
+1. Removed samples with DSRMSE < 0.06 <br> <br>
+1. Performed linear regression on residuals from Step 3 <br> <br>
+1. Compared full day vs. half day <br> <br>
+1. Sub-analyses: Neutrophil-to-lymphocyte ratio (NLR) and Medication-free SCZ cases
+
 ]
 
 ---
@@ -236,7 +252,7 @@ background-position: 50% 90%
 background-size: 425px
 
 class: left, top
-###Case-Control recorded blood draws (n=729)
+###Distribution of recorded blood draws (n=729)
 
 
 - Model 1: Cell-type proportions ~  Case_Control + Age + Sex + Smoking_score + Methbatch + 𝜺
@@ -255,23 +271,34 @@ class: top left hide_logo
 
 .pull-right[
 
-###Full day
+###Full day (n=729)
 
 .bitty[
 - P-values reduced significance in Model 2
 - Effect sizes diminished in Model 2
 ]
 
-###Half day
+###Half day (n=524)
 
 .bitty[
-- P-values no change 
-- Effect sizes no change
+- P-values: no significant change 
+- Effect sizes: no change
 ]
 ]
 
 ---
+class: top left hide_logo
+###Results Sub-analysis 
 
+.bitty[
+- NLR: <br> <br>
+    - significant association in all analyses (_p_ <.001); <br> <br>
+    - modest increase in mean NLR in half-day medication-free samples; i.e. <br> <br>
+      - unadjusted mean NLR (.93) vs. adjusted mean NLR  (1.14) <br> <br>
+- Medication-free cases: significant for neutrophils and CD4T adjusted/unadjusted (_p_ <.01)
+]
+
+---
 
 background-image: url(1947superJumbo.jpg)
 background-position: 60% 75%
