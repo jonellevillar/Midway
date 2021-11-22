@@ -190,8 +190,10 @@ background-size: 750px
 .pull-right[
 
 .bitty[
-- blood collection office hours
-- assume same time cases/controls]
+- blood collection - office hours
+- assume same time - cases/controls
+- black lines - oscillation profiles
+- red dots - collection time]
 
 ]
 
