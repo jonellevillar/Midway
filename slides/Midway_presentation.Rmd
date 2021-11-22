@@ -135,6 +135,7 @@ class:hide_logo
 3. Disorder specific effects of SCZ vs. BPD <br> <br />
 4. Evaluate whether any specific effects are associated with developmental timing 
 ]  
+
 ---
 
 class: hide_logo
@@ -179,24 +180,25 @@ background-size: 750px
 
 ---
 
-class: hide_logo
-
-background-image: url(Sim_officeHours.png)
-background-position:90% 60%
-background-size: 615px
-
-.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
 ### **Epigenetic oscillations**<br> 
 
+.pull-left[
+![](Sim_officeHours.png)
+]
+
+.pull-right[
+
 .bitty[
 - blood collection office hours
-- assume same time cases/controls
-
+- assume same time cases/controls]
 
 ]
----
 
+.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
+
+
+---
 
 background-image: url(Daylight_EG.png)
 background-position: 60% 75% 
@@ -205,10 +207,11 @@ background-size: 515px
 class: left, top
 
 ###Project 1
+
 ###Does time-of-blood draw impact the association of SCZ vs controls on cell-type proportions?
 
-.pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]]
-
+.pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]
+]
 
 ---
 
@@ -223,6 +226,7 @@ class: left, top
 1. Compared full day vs half day <br> <br>
 1. Sub-analyses: Neutrophil-to-lymphocyte ratio and Medication-free SCZ
 ]
+
 ---
 
 background-image: url(2021_08_05_Histogram_n729.png)
@@ -303,6 +307,7 @@ class: left, top
   - DNAm associated with both the pathology and treatment (Jaffe, _et al._, 2016) <br> <br>
   - Tissue issue - relevance of peripheral blood (Bakulski, _et al._, 2016)
 ]
+
 ---
 
 background-image: url(rho_table2.png)
@@ -354,8 +359,6 @@ class: left, top
 .footnote[Eugène Gabritschevsky, _Untitled_,1949]
 ]
 
-
-
 ---
 ###Characteristics 
 
@@ -369,13 +372,16 @@ class: left, top
 - Medication primary form of treatment 
 ]
 
-### Differences 
+---
+
+### Differences <br> <br>
 
 .bitty[
-- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) <br />
-- Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018) <br />
-- Clinical differences behavioral, cognition, intelligence (Reichenberg,_et al._, 2009) <br /> 
+- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) <br> <br>
+- Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018) <br> <br>
+- Clinical differences behavioral, cognition, intelligence (Reichenberg,_et al._, 2009) <br> <br> 
 ]
+
 ---
 
 class: top left
@@ -396,16 +402,12 @@ class: top left
 
 ---
 
-IGNF
-Caspi? 
-
----
 ###Methods <br> <br>
 
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 <br> <br>
 1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
-1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺<br> <br>
 1. GSEA and pathway analyses (GREAT) <br> <br>
 1. Compare findings to GWAS 
 ]
@@ -414,18 +416,24 @@ Caspi?
 
 ### References
 
-.small[
+.bitty[
 Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018.
 
 Bakulski, _et al._, Epigenetic Research in Neuropsychiatric Disorders: the “Tissue Issue”, _Curr Behav Neurosci Rep., 2016.
 
 Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
 
-Caspi, _et al._, Longitudinal Assessment of Mental Health Disorders and Comorbidities Across 4 Decades Among Participants in the Dunedin Birth Cohort Study, _JAMA Network Open_, 2020.
-
 Dempster, _et al._, Disease-associated epigenetic changes in monozygotic twins discordant for schizophrenia and bipolar disorder, _Human Molecular Genetics_, 2011.
 
 Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
+
+]
+
+---
+
+### References cont.
+
+.bitty[
 
 Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
 
@@ -437,7 +445,14 @@ Lee, _et al._, Disrupted-in-schizophrenia 1 enhances the quality of circadian rh
 
 McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
 
-Oh & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
+]
+
+---
+### References cont.
+
+.bitty[
+
+Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
 
 Rakyan, _et al._, Epigenome-wide association studies for common human diseases, _Nature Rev Genetics_, 2011.
 
@@ -452,10 +467,7 @@ Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
 ]
 
 ---
-### References
 
-
----
 class: center, top
 
 background-image: url(Martens_lab_2021.jpg)
