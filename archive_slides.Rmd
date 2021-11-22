@@ -9,6 +9,29 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+class: hide_logo
+
+background-image: url(Sim_officeHours.png)
+background-position:90% 60%
+background-size: 615px
+
+.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
+
+### **Epigenetic oscillations**<br> 
+
+.bitty[
+- blood collection office hours
+- assume same time cases/controls
+
+
+]
+
+---
+
+
+
+
+Caspi, _et al._, Longitudinal Assessment of Mental Health Disorders and Comorbidities Across 4 Decades Among Participants in the Dunedin Birth Cohort Study, _JAMA Network Open_, 2020.
 ---
 class: hide_logo
 
@@ -21,3 +44,28 @@ class: hide_logo
 ]
 
 ---
+
+class: hide_logo
+
+background-image: url(time-naive.png)
+background-position:50% 60%
+background-size: 615px
+
+.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
+
+
+
+### **Time-naive DNAm measurement**
+
+
+---
+
+class: hide_logo
+
+background-image: url(time_sensitive.png)
+background-position:50% 60%
+background-size: 615px
+
+.footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
+
+### **Time-sensitive DNAm measurement**
