@@ -225,9 +225,10 @@ class: left, top
 1. DNA extraction from blood samples by FHI <br> <br>
 1. State-of-the art microarray analysis: **Illumina EPIC 850K**  <br> <br>
 1. QC: Three phases of TOP methylation data QCed separately and then merged <br> <br> 
-    - Removal of probes, PCA, FunnNorm, SVD, Combat <br> <br>
+    - Removal of probes with detection p-value > 0.01, PCA, FunnNorm, SVD, Combat <br> <br>
 1. Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) <br> <br>
-1. Evaluated quality of cell-type estimation with Deconvolution Specific Root Mean Squared Error (DSRMSE) Vellame, _et al._, 2020. 
+1. Evaluated quality of cell-type estimation: <br> <br>
+    - Deconvolution Specific Root Mean Squared Error (DSRMSE) (Vellame, _et al._, 2020) <br> <br>
 1. Calculated smoking score: (Li, _et al._, 2018)
 ]
 
@@ -238,6 +239,7 @@ class: left, top
 
 .bitty[
 1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
+1. Calculated variable “hours from 07:00 baseline” <br> <br>
 1. Samples matched for age and gender <br> <br>
 1. Evaluated correlation between PCA and variables including batch effects <br> <br>
 1. Performed linear regression on cell-type ~ AMP plate <br> <br>
@@ -411,7 +413,7 @@ class: left, top
 .bitty[
 - Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) <br> <br>
 - Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018) <br> <br>
-- Clinical differences behavioral, cognition, intelligence (Reichenberg,_et al._, 2009) <br> <br> 
+- Clinical differences behavioral, cognition, intelligence (Jabben,_et al._, 2010, Parellada, _et al._, 2017) <br> <br> 
 ]
 
 ---
@@ -459,8 +461,6 @@ Dempster, _et al._, Disease-associated epigenetic changes in monozygotic twins d
 
 Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
 
-Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
-
 ]
 
 ---
@@ -468,6 +468,10 @@ Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacter
 ### References cont.
 
 .bitty[
+
+Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
+
+Jabben, _et al._, Neurocognitive functioning as intermediary phenotype and predictor of psychosocial functioning across the psychosis continuum: studies in schizophrenia and bipolar disorder, _J Clin Psychiatry_, 2010.
 
 Jaffe & Irizarry, Accounting for cellular heterogeneity is critical in epigenome-wide association studies, _Genome Biology, 2014.
 
@@ -475,11 +479,6 @@ Lappalainen & Greally, Associating cellular epigenetic models with human phenoty
 
 Lee, _et al._, Disrupted-in-schizophrenia 1 enhances the quality of circadian rhythm by stabilizing BMAL1, _Translational Psychiatry_, 2021.
 
-Li, _et al._, Causal effect of smoking on DNA methylation in peripheral blood: a twin and family study, _Clinical Epigenetics_, 2018.
-
-McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
-
-Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
 
 ]
 
@@ -488,11 +487,30 @@ Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _
 
 .bitty[
 
+Li, _et al._, Causal effect of smoking on DNA methylation in peripheral blood: a twin and family study, _Clinical Epigenetics_, 2018.
+
+McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
+
+Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
+
+Parellada, _et al._, Developmental Differences Between Schizophrenia and Bipolar Disorder, _Schizophr. Bull._, 2017.
+
 Rakyan, _et al._, Epigenome-wide association studies for common human diseases, _Nature Rev Genetics_, 2011.
+
+
+]
+
+---
+
+### References cont.
+
+.bitty[
 
 Salas, _et al._, An optimized library for reference-based deconvolution of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC BeadArray, _Genome Biology_, 2018. 
 
 Smigielski, _et al_, Epigenetic mechanisms in schizophrenia and other psychotic disorders: a systematic review of empirical human ﬁndings, _Molecular Psychiatry_, 2020.
+
+Vellame, _et al._, https://github.com/ds420/CETYGO.
 
 Walker II, _et al._, Circadian rhythm disruption and mental health, _Translational Psychiatry_, 2020.
 
@@ -505,7 +523,7 @@ Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
 class: center, top
 
 background-image: url(Martens_lab_2021.jpg)
-background-position: 10% 70%, 20% 10%
+background-position: 12% 70%, 20% 10%
 background-size: 600px
 
 # Acknowledgements
@@ -513,7 +531,10 @@ background-size: 600px
 .pull-right[
 **Supervisor Prof. Stéphanie Le Hellard**<br><br>
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
-**Colleagues in The Martens Group**<br><br><br>
+**Colleagues in The Martens Group**<br><br>
+**Dept. of Clinical Science II** <br><br><br>
+**NORMENT** <br><br><br>
+
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
 ]]
 
@@ -522,7 +543,7 @@ background-size: 600px
 
 
 class: left top inverse 
-##Conclusion of the public event <br> <br>
+#Conclusion of the public event <br> <br>
 
 ##Happy to take questions
 
@@ -569,9 +590,9 @@ class: left top
 - EPIC probes biased for cancer genes. <br> <br>
 - EWAS literature (2011- 2020): <br><br>
     - 47% pertains to Illumina 450K; <br><br>
-    - < 7% to EPIC (Wei _et al.,_ 2021) <br><br>
+    - < 7% pertains to EPIC (Wei _et al.,_ 2021) <br><br>
 - Small sample sizes may lack power. <br> <br>
-- Large meta-analyses are challenged with different study designs or methods. 
+- Large meta-analyses may have different study designs or methods. 
 ]
  
 
