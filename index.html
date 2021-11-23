@@ -150,27 +150,26 @@ class: left top
 ###Technical / Scientific / Personal Challenges &lt;br&gt; &lt;br&gt;
 
 .bitty[
-- Delays caused when NORMENT projects were moved to secure platform (TSD). &lt;br&gt; &lt;br&gt;
-- The data available to us is derived from one blood sample. &lt;br&gt; &lt;br&gt;
-- We don´t know all the environmental factors that affect the epigenome. &lt;br&gt; &lt;br&gt;
+- Prior to COVID-19 lockdown, NORMENT projects were moved to a secure platform (TSD). &lt;br&gt; &lt;br&gt;
+ - Months of delays occurred when upgrades were made to the servers and our data was moved to the new servers. &lt;br&gt; &lt;br&gt; 
+ - We were often shut out of TSD and could not access the data. &lt;br&gt; &lt;br&gt;  
+ - Technical support in Oslo was short-handed early in the lockdown. &lt;br&gt; &lt;br&gt;
 - COVID-19 lockdown: home office for 18 months was challenging.
 ]
 
 ---
 
-###Objectives of this PhD work &lt;br /&gt;
-
-###**General aim**
-.bitty[
- - To identify epigenetic marks associated with psychosis and treatment effects &lt;br /&gt;
+###**General aim of this PhD work**
+.enlarge[
+ - To identify epigenetic marks associated with psychosis and treatment effects. &lt;br /&gt;
 ]
 
 ###**Specific aims**
 .bitty[
-1. Association of SCZ vs. controls on cell-type proportions is impacted by time-of-blood draw &lt;br&gt; &lt;br /&gt;
-2. Common and specific effects of antipsychotic drugs in psychosis &lt;br&gt; &lt;br /&gt;
-3. Disorder specific effects of SCZ vs. BPD &lt;br&gt; &lt;br /&gt;
-4. Evaluate whether any specific effects are associated with developmental timing 
+1. **Paper 1**: Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? &lt;br&gt; &lt;br /&gt;
+2. **Paper 2**: What are common and specific DNAm marks are seen in psychosis following antipsychotic drugs treatment? &lt;br&gt; &lt;br /&gt;
+3. **Paper 3**: Do we see disorder specific DNAm of SCZ vs. BPD? &lt;br&gt; &lt;br /&gt;
+4. **Paper 3**: Are these disorder specific DNAm marks associated with development in SCZ &amp; BPD? 
 ]  
 
 ---
@@ -213,7 +212,7 @@ background-size: 750px
 - PCA: technical replicates in each batch clustered close to each other &lt;br&gt; &lt;br&gt;
 ]
 
-.enlarge[This is the dataset we will be using for the projects.]
+.enlarge[This dataset is the starting point for all of the projects that will be described next.]
 
 
 ---
@@ -414,8 +413,8 @@ background-size: 800px
 1. Select samples with blood drawn within 4 months of interview date &lt;br&gt; &lt;br&gt;
 1. **Common**: Compare AP-use vs non AP-use   &lt;br&gt; &lt;br&gt;
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  &lt;br&gt; &lt;br&gt;
-1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical + 𝜺&lt;br&gt; &lt;br&gt;
-1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Demarcate_) &lt;br&gt; &lt;br&gt;
+1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺&lt;br&gt; &lt;br&gt;
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Comb-p_) &lt;br&gt; &lt;br&gt;
 1. GSEA and pathway analysis (GREAT) &lt;br&gt; &lt;br&gt;
 
 ]
@@ -485,8 +484,8 @@ class: top left
 
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 &lt;br&gt; &lt;br&gt;
-1. Extract CpGs associated with antipsychotics from Project 2 &lt;br&gt; &lt;br&gt;
-1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + eCells + Technical +𝜺&lt;br&gt; &lt;br&gt;
+1. Remove CpGs associated with antipsychotics from Project 2 &lt;br&gt; &lt;br&gt;
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking_score + eCells + Technical +𝜺&lt;br&gt; &lt;br&gt;
 1. GSEA and pathway analyses (GREAT) &lt;br&gt; &lt;br&gt;
 1. Compare annotated genes to GWAS findings
 ]
@@ -508,7 +507,7 @@ class: center, top
 **Dept. of Clinical Science II** &lt;br&gt;&lt;br&gt;&lt;br&gt;
 **NORMENT** &lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-[<i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i> @jdvillar](https://twitter.com/jdvillar)]]
+[<i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i> @jdvillar](https://twitter.com/jdvillar)]
 
 
 

@@ -161,27 +161,26 @@ class: left top
 ###Technical / Scientific / Personal Challenges <br> <br>
 
 .bitty[
-- Delays caused when NORMENT projects were moved to secure platform (TSD). <br> <br>
-- The data available to us is derived from one blood sample. <br> <br>
-- We don´t know all the environmental factors that affect the epigenome. <br> <br>
+- Prior to COVID-19 lockdown, NORMENT projects were moved to a secure platform (TSD). <br> <br>
+ - Months of delays occurred when upgrades were made to the servers and our data was moved to the new servers. <br> <br> 
+ - We were often shut out of TSD and could not access the data. <br> <br>  
+ - Technical support in Oslo was short-handed early in the lockdown. <br> <br>
 - COVID-19 lockdown: home office for 18 months was challenging.
 ]
 
 ---
 
-###Objectives of this PhD work <br />
-
-###**General aim**
-.bitty[
- - To identify epigenetic marks associated with psychosis and treatment effects <br />
+###**General aim of this PhD work**
+.enlarge[
+ - To identify epigenetic marks associated with psychosis and treatment effects. <br />
 ]
 
 ###**Specific aims**
 .bitty[
-1. Association of SCZ vs. controls on cell-type proportions is impacted by time-of-blood draw <br> <br />
-2. Common and specific effects of antipsychotic drugs in psychosis <br> <br />
-3. Disorder specific effects of SCZ vs. BPD <br> <br />
-4. Evaluate whether any specific effects are associated with developmental timing 
+1. **Paper 1**: Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
+2. **Paper 2**: What are common and specific DNAm marks are seen in psychosis following antipsychotic drugs treatment? <br> <br />
+3. **Paper 3**: Do we see disorder specific DNAm of SCZ vs. BPD? <br> <br />
+4. **Paper 3**: Are these disorder specific DNAm marks associated with development in SCZ & BPD? 
 ]  
 
 ---
@@ -224,7 +223,7 @@ background-size: 750px
 - PCA: technical replicates in each batch clustered close to each other <br> <br>
 ]
 
-.enlarge[This is the dataset we will be using for the projects.]
+.enlarge[This dataset is the starting point for all of the projects that will be described next.]
 
 
 ---
@@ -425,8 +424,8 @@ background-size: 800px
 1. Select samples with blood drawn within 4 months of interview date <br> <br>
 1. **Common**: Compare AP-use vs non AP-use   <br> <br>
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
-1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical + 𝜺<br> <br>
-1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Demarcate_) <br> <br>
+1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺<br> <br>
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Comb-p_) <br> <br>
 1. GSEA and pathway analysis (GREAT) <br> <br>
 
 ]
@@ -496,8 +495,8 @@ class: top left
 
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 <br> <br>
-1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
-1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + eCells + Technical +𝜺<br> <br>
+1. Remove CpGs associated with antipsychotics from Project 2 <br> <br>
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking_score + eCells + Technical +𝜺<br> <br>
 1. GSEA and pathway analyses (GREAT) <br> <br>
 1. Compare annotated genes to GWAS findings
 ]
@@ -519,7 +518,7 @@ class: center, top
 **Dept. of Clinical Science II** <br><br><br>
 **NORMENT** <br><br><br>
 
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]]
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]
 
 
 
