@@ -504,24 +504,23 @@ class: top left
 
 ---
 
-class: center, top
-
 background-image: url(slides/Martens_lab_2021sm6.png)
 background-position: 12% 70%, 20% 10%
 background-size: 600px
 
+class: center, top
+
 # Acknowledgements
 
 .pull-right[
-
 **Supervisor Prof. Stéphanie Le Hellard**<br><br>
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
 **Colleagues in The Martens Group**<br><br>
 **Dept. of Clinical Science II** <br><br><br>
 **NORMENT** <br><br><br>
 
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
-]]
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]]
+
 
 
 ---
