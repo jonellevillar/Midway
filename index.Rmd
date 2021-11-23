@@ -250,7 +250,8 @@ class: left, top
 - Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) <br> <br>
 - Circadian rhythms are disrupted in serious mental disorders (Walker II, _et al._, 2020) <br> <br>
 - Chrono-epigenetics: <br> <br>
-    - temporal dynamics of epigenetic processes (Oh, E. & Petronis, 2021)
+    - temporal dynamics of epigenetic processes <br> <br>
+    - oscillating CpGs contribute to epigenetic variability (Oh, E. & Petronis, 2021)
 ]
 
 ---
@@ -466,7 +467,7 @@ class: left, top
 ### Differences <br> <br>
 
 .bitty[
-- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) <br> <br>
+- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al._, 2014) <br> <br>
 - Two genome-wide significant SNPs (BPD&SCZ Working Group of the PGC., 2018) <br> <br>
 - Clinical differences behavioral, cognition, intelligence (Jabben,_et al._, 2010, Parellada, _et al._, 2017) <br> <br> 
 ]
@@ -496,7 +497,7 @@ class: top left
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 <br> <br>
 1. Extract CpGs associated with antipsychotics from Project 2 <br> <br>
-1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺<br> <br>
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + eCells + Technical +𝜺<br> <br>
 1. GSEA and pathway analyses (GREAT) <br> <br>
 1. Compare annotated genes to GWAS findings
 ]
