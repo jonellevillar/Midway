@@ -196,7 +196,7 @@ background-size: 750px
  - black lines: oscillation profiles
  - red dots: collection time <br> <br>
 - figure c
- - cpg density at 12:00
+ - cpg density at 12:00 
  ]
 
 ]
