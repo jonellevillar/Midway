@@ -362,7 +362,7 @@ class: top left hide_logo
 
 background-image: url(slides/1947superJumbo2.png)
 background-position: 60% 75%
-background-size: 525px
+background-size: 500px
 
 class: left, top
 ###Project 2
@@ -425,7 +425,7 @@ background-size: 800px
 1. **Common**: Compare AP-use vs non AP-use   <br> <br>
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
 1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical + 𝜺<br> <br>
-1. Identify CpGs (_limma_), associated genes (_Illumina annotation), and DMRs (_Demarcate_) <br> <br>
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Demarcate_) <br> <br>
 1. GSEA and pathway analysis (GREAT) <br> <br>
 
 ]
@@ -436,7 +436,7 @@ background-size: 800px
 
 background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
 background-position: 50% 70%
-background-size: 525px
+background-size: 515px
 
 
 class: left, top 
@@ -505,7 +505,7 @@ class: top left
 
 class: center, top
 
-background-image: url(slides/Martens_lab_2021sm.png)
+background-image: url(slides/Martens_lab_2021sm6.png)
 background-position: 12% 70%, 20% 10%
 background-size: 600px
 
