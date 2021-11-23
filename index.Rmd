@@ -505,13 +505,14 @@ class: top left
 
 class: center, top
 
-background-image: url(slides/Martens_lab_2021sm.jpg)
+background-image: url(slides/Martens_lab_2021sm.png)
 background-position: 12% 70%, 20% 10%
 background-size: 600px
 
 # Acknowledgements
 
 .pull-right[
+
 **Supervisor Prof. Stéphanie Le Hellard**<br><br>
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
 **Colleagues in The Martens Group**<br><br>
@@ -519,6 +520,7 @@ background-size: 600px
 **NORMENT** <br><br><br>
 
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]
+
 ]
 
 
@@ -530,7 +532,7 @@ class: left top inverse
 
 ##Happy to take questions 
 
-
+<i class="fa-solid fa-face-grin-beam"></i>
 
 
 ---
