@@ -519,9 +519,8 @@ background-size: 600px
 **Dept. of Clinical Science II** <br><br><br>
 **NORMENT** <br><br><br>
 
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]
-
-]
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
+]]
 
 
 ---
