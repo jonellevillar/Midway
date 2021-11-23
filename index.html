@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Midway Evaluation</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="😎 Jonelle Dickow Villar" />
+    <meta name="date" content="2021-11-25" />
+    <script src="index_files/header-attrs/header-attrs.js"></script>
+    <link href="index_files/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="index_files/tile-view/tile-view.js"></script>
+    <link href="index_files/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="index_files/font-awesome/css/v4-shims.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="yellow_dots.css" type="text/css" />
+    <link rel="stylesheet" href="extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Midway Evaluation
+## Dept. of Clinical Science II <br/> University of Bergen
+### 😎 Jonelle Dickow Villar
+### November 25, 2021
+
+---
+
+
+
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 250px;
+height: 250px;
+z-index: 0;
+background-image: url(slides/UiBlogoMED_gray_v_Eng.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:2em;right:2em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+&lt;style type="text/css"&gt;
+
+.small { 
+  font-size: 0.75em
+}  
+
+.bitty { 
+    font-size: 1.25em;
+}
+
+.enlarge { 
+    font-size: 1.5em;
+}
+
+.fade {
+  opacity: 0.66;
+}
+
+&lt;/style&gt;
+
+
+---
+
+class:hide_logo
+
+###**An Epigenetic Study of Treatment Effects and Environmental Factors in Schizophrenia and Bipolar Disorder**&lt;br&gt;&lt;br&gt;
+
+.large[.right[
+**Principal Supervisor**: Stéphanie Le Hellard, UiB&lt;br&gt;&lt;br&gt;
+**Co-Supervisors**: Anne-Kristin Stavrum, UiB,&lt;br&gt;&lt;br&gt;
+                  Tetyana Zayats, Broad Institute, USA&lt;br&gt;&lt;br&gt;
+                  Ingrid Melle, UiO&lt;br&gt;&lt;br&gt;&lt;br&gt;
+                  July 1, 2019 - June 30, 2023
+]]              
+
+---
+
+###Financing for this PhD project: &lt;br&gt; &lt;br /&gt;
+
+.bitty[
+  - UiB as a contribution to NORMENT CoE (NFR 213363) &lt;br&gt; &lt;br&gt;
+  - BEDREHELSE grant: "DNA methylation in psychiatric disorders, and mediation of gene by environment effects, from birth to adulthood." (NFR 273446) &lt;br&gt; &lt;br&gt;
+ - REK approval (#2009/2485, #2013/1727)
+] 
+---
+
+###Plan for this talk &lt;br&gt; &lt;br /&gt;
+###- Objectives &lt;br /&gt;
+###- Methods &lt;br /&gt;
+###- Status of project &lt;br /&gt;
+
+
+---
+
+background-image: url(slides/ECT3.png)
+background-position: 50% 65%
+background-size: 650px
+
+class: left top 
+###Formal training components completed
+
+---
+
+background-image: url(slides/posters3.png)
+background-position: contain
+background-size: 800px
+
+
+class: left top 
+###FORMIDL901 to be completed
+
+---
+
+background-image: url(slides/Plan3.png)
+background-position: 50% 65%
+background-size: 675px
+
+class: left top 
+###Plan for project completion
+
+---
+
+###Technical / Scientific / Personal Challenges &lt;br&gt; &lt;br&gt;
+
+.bitty[
+- Delays caused when NORMENT projects were moved to secure platform (TSD). &lt;br&gt; &lt;br&gt;
+- The data available to us is derived from one blood sample. &lt;br&gt; &lt;br&gt;
+- Realistically, we can´t control for all environmental factors. &lt;br&gt; &lt;br&gt;
+- COVID-19 lockdown: home office for 18 months was challenging.
+]
+
+---
+
+###Objectives of this PhD work &lt;br /&gt;
+
+###**General aim**
+.bitty[
+ - To identify epigenetic marks associated with psychosis and treatment effects &lt;br /&gt;
+]
+
+###**Specific aims**
+.bitty[
+1. Association of SCZ vs. controls on cell-type proportions is impacted by time-of-blood draw &lt;br&gt; &lt;br /&gt;
+2. Common and specific effects of antipsychotic drugs in psychosis &lt;br&gt; &lt;br /&gt;
+3. Disorder specific effects of SCZ vs. BPD &lt;br&gt; &lt;br /&gt;
+4. Evaluate whether any specific effects are associated with developmental timing 
+]  
+
+---
+
+class: hide_logo
+
+background-image: url(slides/Smigielski.png)
+background-position:cover
+background-size: 750px
+
+.footnote[Smigielski, _et al_, Molecular Psychiatry, 2020]
+
+
+## **Epigenetics**
+
+---
+
+
+###Epigenetics in psychiatric disorders  &lt;br&gt; &lt;br&gt; 
+
+.bitty[
+- Development: prenatal environmental factors _in utero_ &lt;br&gt; &lt;br&gt;
+- MZ twins discordant for SCZ/BPD (Dempster, _et al._, 2011) &lt;br&gt; &lt;br&gt;
+- Dynamic; many environmental exposures - trauma, adversity, life-style &lt;br&gt; &lt;br&gt;
+- Associated with brain volume, structure and function; &lt;br&gt; &lt;br&gt;
+    - social and cognitive function (Starnawska &amp; Demontis, 2021) &lt;br&gt; &lt;br&gt;
+- DNAm changes overtime as a function of age and chronicity of the disorder 
+]
+
+
+---
+### The Data  (N = 2365)
+
+.bitty[
+- TOP cohort (NORMENT): recruitment and blood samples &lt;br&gt; &lt;br&gt;
+- DNA sent in three batches to Bonn for typing &lt;br&gt; &lt;br&gt;
+- State-of-the art **Illumina EPIC 850K** microarray &lt;br&gt; &lt;br&gt;
+- First PCA showed big batch effects &lt;br&gt; &lt;br&gt;
+- QC: each batch separately and then merged the three &lt;br&gt; &lt;br&gt;
+- PCA: technical replicates in each batch clustered close to each other &lt;br&gt; &lt;br&gt;
+]
+
+.enlarge[This is the dataset we will be using for the projects.]
+
+
+---
+
+background-image: url(slides/Daylight_EG.png)
+background-position: 60% 75% 
+background-size: 515px
+
+class: left, top
+
+###Project 1
+
+###Does time-of-blood draw impact the association of SCZ vs controls on cell-type proportions?
+
+.pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]
+]
+
+---
+
+###Circadian rhythms and "chrono-epigenetics" &lt;br&gt; &lt;br&gt; 
+
+.bitty[
+- Methyl cycle co-evolved with circadian clocks (Fustin, _et al._, 2020) &lt;br&gt; &lt;br&gt;
+- Circadian rhythms are disrupted in serious mental disorders (Walker II, _et al._, 2020) &lt;br&gt; &lt;br&gt;
+- Chrono-epigenetics: &lt;br&gt; &lt;br&gt;
+    - temporal dynamics of epigenetic processes (Oh, E. &amp; Petronis, 2021)
+]
+
+---
+
+
+### **Epigenetic oscillations**&lt;br&gt; 
+
+.pull-left[
+![](slides/Sim_officeHours.png)
+]
+
+.pull-right[
+
+.bitty[
+- figure b
+ - blood collection time: 09-16
+ - example time: 12:00 
+ - black lines: oscillation profiles
+ - red dots: collection time &lt;br&gt; &lt;br&gt;
+- figure c
+ - cpg density at 12:00 
+ ]
+
+]
+
+.footnote[Oh, E. &amp; Petronis, Nature Reviews Genetics, 2021]
+
+
+
+---
+
+
+###Method of analysis 
+
+.bitty[
+Pre-step: Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) &lt;br&gt; &lt;br&gt;
+
+]
+
+
+.bitty[
+1. Selected European SCZ cases &amp; controls with recorded time-of-blood draw (n=729) &lt;br&gt; &lt;br&gt;
+1. Calculated variable “hours from 07:00 baseline” &lt;br&gt; &lt;br&gt;
+1. Samples matched for age and gender &lt;br&gt; &lt;br&gt;
+1. Compared full day vs. half day &lt;br&gt; &lt;br&gt;
+1. Sub-analyses: Neutrophil-to-lymphocyte ratio (NLR) and medication-free SCZ cases
+
+]
+
+---
+
+background-image: url(slides/2021_08_05_Histogram_n729.png)
+background-position: 50% 90% 
+background-size: 425px
+
+class: left, top
+###Distribution of recorded blood draws (n=729)
+
+
+- Model 1: Cell-type proportions ~  Case_Control + Age + Sex + Smoking_score + Methbatch + 𝜺
+- Model 2: Cell-type proportions ~ Case_Control + Age + Sex + Smoking_score + Methbatch + Hours_from_baseline + 𝜺
+
+
+---
+
+
+background-image: url(slides/2021_09_04_Table.CorrectPvalsTeal.png)
+background-position: 25% 45% 
+background-size: 400px
+
+class: top left hide_logo
+###Results
+
+.pull-right[
+
+###Full day (n=729)
+
+.bitty[
+- P-values reduced significance in Model 2
+- Effect sizes diminished in Model 2
+]
+
+###Half day (n=524)
+
+.bitty[
+- P-values: no significant change 
+- Effect sizes: no change
+]
+]
+
+---
+class: top left hide_logo
+###Results Sub-analysis 
+
+.bitty[
+- NLR: &lt;br&gt; &lt;br&gt;
+    - significant association in all analyses (_p_ &lt;.001); &lt;br&gt; &lt;br&gt;
+    - modest increase in mean NLR in half-day medication-free samples; i.e. &lt;br&gt; &lt;br&gt;
+      - unadjusted mean NLR (.93) vs. adjusted mean NLR  (1.14) &lt;br&gt; &lt;br&gt;
+- Medication-free cases: significant for neutrophils and CD4T adjusted/unadjusted (_p_ &lt;.01)
+]
+
+###Conclusion Project 1:
+.bitty[
+**In DNAm studies, correcting for cell-type proportions will reduce epigenetic variation associated with time-of-blood draw and circadian cycling of white blood cells.** 
+]
+
+---
+
+background-image: url(slides/1947superJumbo.jpg)
+background-position: 60% 75%
+background-size: 525px
+
+class: left, top
+###Project 2
+###Common and specific effects of antipsychotics associated with psychosis
+
+.pull-left[
+.footnote[Eugène Gabritschevsky, _Untitled_,1947]
+]
+
+---
+
+background-image: url(slides/Aringhieri2.jpg)
+background-position: 60% 75%
+background-size: 775px
+
+class: left, top
+
+###Antipsychotics and corresponding receptors
+
+.footnote[Aringhieri _et al_, Pharmacology &amp; Therapeutics, 2018]
+
+---
+
+### Pharmacoepigenetic findings in psychiatry 
+
+.bitty[
+- Early stages still: &lt;br&gt; &lt;br&gt;
+  - Study design, technology, patient population, lack of replication &lt;br&gt; &lt;br&gt;
+  - No uniform identification of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_) (Burghardt, _et al._, 2020, Zhou _et al_, 2021) &lt;br&gt; &lt;br&gt;
+  - Lacking studies of AP monotherapy (Burghardt, _et al._, 2020) &lt;br&gt; &lt;br&gt;
+  - DNAm associated with both the pathology and treatment (Jaffe, _et al._, 2016) &lt;br&gt; &lt;br&gt;
+  - "Tissue issue" - relevance of peripheral blood (Bakulski, _et al._, 2016)
+]
+
+---
+
+background-image: url(slides/rho_table2.png)
+background-position: 50% 70%
+background-size: 800px
+
+
+###Correlation blood-brain DNAm  &lt;br&gt; 
+
+.bitty[
+- Technological improvements:  450K vs. EPIC (850K)  
+- Blood / live brain-tissue samples:      r = 0.86 
+- CpGs identified within promoter: r = 0.92
+]
+
+
+.footnote[Braun _et al._, Translational Psychiatry, 2019]
+
+---
+
+###Methods &lt;br&gt; 
+
+.bitty[
+1. Select European SCZ, BPD and MDD cases being treated with antipsychotics &lt;br&gt; &lt;br&gt;
+1. Select samples with blood drawn within 4 months of interview date &lt;br&gt; &lt;br&gt;
+1. **Common**: Compare AP-use vs non AP-use   &lt;br&gt; &lt;br&gt;
+1. **Specific**: Contrast mono-therapy against non-target polytherapy.  &lt;br&gt; &lt;br&gt;
+1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking + eCells + Technical + 𝜺&lt;br&gt; &lt;br&gt;
+1. Identify CpGs (_limma_), associated genes (_Illumina annotation), and DMRs (_Demarcate_) &lt;br&gt; &lt;br&gt;
+1. GSEA and pathway analysis (GREAT) &lt;br&gt; &lt;br&gt;
+
+]
+
+
+---
+
+
+background-image: url(slides/Sans-titre-1949-Gouache-sur-papier.jpg)
+background-position: 50% 70%
+background-size: 525px
+
+
+class: left, top 
+
+###Project 3
+###Identify differential DNA methylation in SCZ versus Bipolar
+
+.pull-left[
+.footnote[Eugène Gabritschevsky, _Untitled_,1949]
+]
+
+---
+###Characteristics 
+
+###Similarities
+
+.bitty[
+- Early age of onset ~ 20-30 years old &lt;br&gt; &lt;br&gt;
+- Heritability ~ 80% &lt;br&gt; &lt;br&gt;
+- Periods of stability and relapse &lt;br&gt; &lt;br&gt;
+- Dysregulated circadian rhythmicity: both a trait and state marker (Walker II, _et al._, 2020) &lt;br&gt; &lt;br&gt;
+- Medication primary form of treatment 
+]
+
+---
+
+### Differences &lt;br&gt; &lt;br&gt;
+
+.bitty[
+- Polygenic risk score (PRS) differed significantly (Ruderfer, _et al., 2014) &lt;br&gt; &lt;br&gt;
+- Two genome-wide significant SNPs (BPD&amp;SCZ Working Group of the PGC., 2018) &lt;br&gt; &lt;br&gt;
+- Clinical differences behavioral, cognition, intelligence (Jabben,_et al._, 2010, Parellada, _et al._, 2017) &lt;br&gt; &lt;br&gt; 
+]
+
+---
+
+class: top left
+### **Clinical Course of SCZ and BPD**
+
+.pull-left[
+![](slides/ClinicalCourse_adapt.png)
+]
+
+.pull-right[
+![](slides/course_BPD.jpeg)
+]
+
+
+.pull.left[.footnote[McCutcheon, _et al.,_ JAMA Psychiatry, 2020]]
+.pull-right[.footnote[Elanjithara, _et al.,_ 2011]]
+
+
+---
+
+###Methods &lt;br&gt; &lt;br&gt;
+
+.enlarge[
+1. Select SCZ and BPD cases from Project 2 &lt;br&gt; &lt;br&gt;
+1. Extract CpGs associated with antipsychotics from Project 2 &lt;br&gt; &lt;br&gt;
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking + Cells + Technical +𝜺&lt;br&gt; &lt;br&gt;
+1. GSEA and pathway analyses (GREAT) &lt;br&gt; &lt;br&gt;
+1. Compare annotated genes to GWAS findings
+]
+
+---
+
+class: center, top
+
+background-image: url(slides/Martens_lab_2021.jpg)
+background-position: 12% 70%, 20% 10%
+background-size: 600px
+
+# Acknowledgements
+
+.pull-right[
+**Supervisor Prof. Stéphanie Le Hellard**&lt;br&gt;&lt;br&gt;
+**Co-Supervisor Dr. Anne-Kristin Stavrum**&lt;br&gt;&lt;br&gt;
+**Colleagues in The Martens Group**&lt;br&gt;&lt;br&gt;
+**Dept. of Clinical Science II** &lt;br&gt;&lt;br&gt;&lt;br&gt;
+**NORMENT** &lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+[<i class="fab fa-twitter" role="presentation" aria-label="twitter icon"></i> @jdvillar](https://twitter.com/jdvillar)
+]]
+
+
+---
+
+
+class: left top inverse 
+#Conclusion of Midway Evaluation  &lt;br&gt; &lt;br&gt;
+
+##Happy to take questions 
+
+
+
+
+---
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
