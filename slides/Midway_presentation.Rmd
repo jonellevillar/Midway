@@ -190,10 +190,14 @@ background-size: 750px
 .pull-right[
 
 .bitty[
-- blood collection - office hours
-- assume same time - cases/controls
-- black lines - oscillation profiles
-- red dots - collection time]
+- figure b
+ - blood collection time: 09-16
+ - example time: 12:00 
+ - black lines: oscillation profiles
+ - red dots: collection time <br> <br>
+- figure c
+ - cpg density at 12:00
+ ]
 
 ]
 
@@ -303,6 +307,13 @@ class: top left hide_logo
 - Medication-free cases: significant for neutrophils and CD4T adjusted/unadjusted (_p_ <.01)
 ]
 
+### Conclusion Project 1:
+.bitty[
+Matching cases and controls for blood collection time reduces bias 
+and the risk of overestimating the association in observational case-control studies 
+due to circadian cycling of white blood cells. 
+]
+
 ---
 
 background-image: url(1947superJumbo.jpg)
@@ -334,12 +345,12 @@ class: left, top
 ### Pharmacoepigenetic findings in psychiatry 
 
 .bitty[
-- Early stages <br> <br>
+- Early stages still: <br> <br>
   - Study design, technology, patient population, lack of replication <br> <br>
   - No uniform identification of hyper- or hypo-methylation (i.e. _COMT_, _5-HTT_, _HTR2A_) (Burghardt, _et al._, 2020, Zhou _et al_, 2021) <br> <br>
   - Lacking studies of AP monotherapy (Burghardt, _et al._, 2020) <br> <br>
   - DNAm associated with both the pathology and treatment (Jaffe, _et al._, 2016) <br> <br>
-  - Tissue issue - relevance of peripheral blood (Bakulski, _et al._, 2016)
+  - "Tissue issue" - relevance of peripheral blood (Bakulski, _et al._, 2016)
 ]
 
 ---
