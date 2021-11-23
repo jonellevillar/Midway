@@ -2,7 +2,7 @@
 title: "Midway Evaluation"
 subtitle: "Dept. of Clinical Science II <br/> University of Bergen"  
 author: 
-  - "&#x1F60E; Jonelle Dickow Villar"
+  - "Jonelle Dickow Villar"
 date: "November 25, 2021"
 output:
   xaringan::moon_reader:
