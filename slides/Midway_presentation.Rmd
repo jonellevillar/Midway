@@ -113,11 +113,59 @@ class:hide_logo
 
 ---
 
+###Financing for this PhD project: <br> <br />
+
+.bitty[
+  - UiB as a contribution to NORMENT CoE (NFR 213363) <br> <br>
+  - BEDREHELSE grant: "DNA methylation in psychiatric disorders, and mediation of gene by environment effects, from birth to adulthood." (NFR 273446) <br> <br>
+ - REK approval (#2009/2485, #2013/1727)
+] 
+---
+
 ###Plan for this talk <br> <br />
 ###- Objectives <br />
 ###- Methods <br />
 ###- Status of project <br />
 
+
+---
+
+background-image: url(ECT3.png)
+background-position: 50% 65%
+background-size: 650px
+
+class: left top 
+###Formal training components completed
+
+---
+
+background-image: url(posters3.png)
+background-position: contain
+background-size: 800px
+
+
+class: left top 
+###FORMIDL901 to be completed
+
+---
+
+background-image: url(Plan3.png)
+background-position: 50% 65%
+background-size: 675px
+
+class: left top 
+###Plan for project completion
+
+---
+
+###Technical / Scientific / Personal Challenges <br> <br>
+
+.bitty[
+- Delays caused when NORMENT projects were moved to secure platform (TSD). <br> <br>
+- The data available to us is derived from one blood sample. <br> <br>
+- Realistically, we can´t control for all environmental factors. <br> <br>
+- COVID-19 lockdown: home office for 18 months was challenging.
+]
 
 ---
 
@@ -147,10 +195,7 @@ background-size: 750px
 .footnote[Smigielski, _et al_, Molecular Psychiatry, 2020]
 
 
-
 ## **Epigenetics**
-
-
 
 ---
 
@@ -166,6 +211,36 @@ background-size: 750px
 - DNAm changes overtime as a function of age and chronicity of the disorder 
 ]
 
+
+---
+### The Data  (N = 2365)
+
+.bitty[
+- TOP cohort (NORMENT): recruitment and blood samples <br> <br>
+- DNA sent in three batches to Bonn for typing <br> <br>
+- State-of-the art **Illumina EPIC 850K** microarray <br> <br>
+- First PCA showed big batch effects <br> <br>
+- QC: each batch separately and then merged the three <br> <br>
+- PCA: technical replicates in each batch clustered close to each other <br> <br>
+]
+
+.enlarge[This is the dataset we will be using for the projects.]
+
+
+---
+
+background-image: url(Daylight_EG.png)
+background-position: 60% 75% 
+background-size: 515px
+
+class: left, top
+
+###Project 1
+
+###Does time-of-blood draw impact the association of SCZ vs controls on cell-type proportions?
+
+.pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]
+]
 
 ---
 
@@ -204,53 +279,24 @@ background-size: 750px
 .footnote[Oh, E. & Petronis, Nature Reviews Genetics, 2021]
 
 
----
-
-background-image: url(Daylight_EG.png)
-background-position: 60% 75% 
-background-size: 515px
-
-class: left, top
-
-###Project 1
-
-###Does time-of-blood draw impact the association of SCZ vs controls on cell-type proportions?
-
-.pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]
-]
 
 ---
 
 
-###Methods: Pre-data analysis
-
+###Method of analysis 
 
 .bitty[
-1. DNA extraction from blood samples by FHI <br> <br>
-1. State-of-the art microarray analysis: **Illumina EPIC 850K**  <br> <br>
-1. QC: Three phases of TOP methylation data QCed separately and then merged <br> <br> 
-    - Removal of probes with detection p-value > 0.01, PCA, FunnNorm, SVD, Combat <br> <br>
-1. Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) <br> <br>
-1. Evaluated quality of cell-type estimation: <br> <br>
-    - Deconvolution Specific Root Mean Squared Error (DSRMSE) (Vellame, _et al._, 2020) <br> <br>
-1. Calculated smoking score: (Li, _et al._, 2018)
+Pre-step: Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018) <br> <br>
+
 ]
-
----
-
-###Methods: Analysis pipeline 
 
 
 .bitty[
 1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
 1. Calculated variable “hours from 07:00 baseline” <br> <br>
 1. Samples matched for age and gender <br> <br>
-1. Evaluated correlation between PCA and variables including batch effects <br> <br>
-1. Performed linear regression on cell-type ~ AMP plate <br> <br>
-1. Removed samples with DSRMSE < 0.06 <br> <br>
-1. Performed linear regression on residuals from Step 3 <br> <br>
 1. Compared full day vs. half day <br> <br>
-1. Sub-analyses: Neutrophil-to-lymphocyte ratio (NLR) and Medication-free SCZ cases
+1. Sub-analyses: Neutrophil-to-lymphocyte ratio (NLR) and medication-free SCZ cases
 
 ]
 
@@ -307,11 +353,9 @@ class: top left hide_logo
 - Medication-free cases: significant for neutrophils and CD4T adjusted/unadjusted (_p_ <.01)
 ]
 
-### Conclusion Project 1:
+###Conclusion Project 1:
 .bitty[
-Matching cases and controls for blood collection time reduces bias 
-and the risk of overestimating the association in observational case-control studies 
-due to circadian cycling of white blood cells. 
+**In DNAm studies, correcting for cell-type proportions will reduce epigenetic variation associated with time-of-blood draw and circadian cycling of white blood cells.** 
 ]
 
 ---
@@ -459,78 +503,6 @@ class: top left
 
 ---
 
-### References
-
-.bitty[
-Aringhieri, _et al_, Molecular targets of atypical antipsychotics: From mechanism of action to clinical differences, _Pharmacology & Therapeutics_, 2018.
-
-Bakulski, _et al._, Epigenetic Research in Neuropsychiatric Disorders: the “Tissue Issue”, _Curr Behav Neurosci Rep., 2016.
-
-Braun, _et al._, Genome-wide DNA methylation comparison between live human brain and peripheral tissues within individuals, _Translational Psychiatry_, 2019.
-
-Dempster, _et al._, Disease-associated epigenetic changes in monozygotic twins discordant for schizophrenia and bipolar disorder, _Human Molecular Genetics_, 2011.
-
-Elanjithara, _et al._, Treatment of early stages of bipolar disorder, _Advances in Psychiatric Treatment_, 2011.
-
-]
-
----
-
-### References cont.
-
-.bitty[
-
-Fustin, _et al._, Methylation deficiency disrupts biological rhythms from bacteria to humans, _Communications Biology_, 2020.
-
-Jabben, _et al._, Neurocognitive functioning as intermediary phenotype and predictor of psychosocial functioning across the psychosis continuum: studies in schizophrenia and bipolar disorder, _J Clin Psychiatry_, 2010.
-
-Jaffe & Irizarry, Accounting for cellular heterogeneity is critical in epigenome-wide association studies, _Genome Biology, 2014.
-
-Lappalainen & Greally, Associating cellular epigenetic models with human phenotypes, _Nature Rev Genetics_, 2017.
-
-Lee, _et al._, Disrupted-in-schizophrenia 1 enhances the quality of circadian rhythm by stabilizing BMAL1, _Translational Psychiatry_, 2021.
-
-
-]
-
----
-### References cont.
-
-.bitty[
-
-Li, _et al._, Causal effect of smoking on DNA methylation in peripheral blood: a twin and family study, _Clinical Epigenetics_, 2018.
-
-McCutcheon, _et al._, Schizophrenia - An Overview, _JAMA Psychiatry_, 2019.
-
-Oh, E. & Petronis, Origins of human disease: the chrono-epigenetic perspective _Nature Rev Genetics_, 2021.
-
-Parellada, _et al._, Developmental Differences Between Schizophrenia and Bipolar Disorder, _Schizophr. Bull._, 2017.
-
-Rakyan, _et al._, Epigenome-wide association studies for common human diseases, _Nature Rev Genetics_, 2011.
-
-
-]
-
----
-
-### References cont.
-
-.bitty[
-
-Salas, _et al._, An optimized library for reference-based deconvolution of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC BeadArray, _Genome Biology_, 2018. 
-
-Smigielski, _et al_, Epigenetic mechanisms in schizophrenia and other psychotic disorders: a systematic review of empirical human ﬁndings, _Molecular Psychiatry_, 2020.
-
-Vellame, _et al._, https://github.com/ds420/CETYGO.
-
-Walker II, _et al._, Circadian rhythm disruption and mental health, _Translational Psychiatry_, 2020.
-
-Wei, _et al._, Ten Years of EWAS, _Advanced Science_, 2021.
-
-]
-
----
-
 class: center, top
 
 background-image: url(Martens_lab_2021.jpg)
@@ -554,71 +526,22 @@ background-size: 600px
 
 
 class: left top inverse 
-#Conclusion of the public event <br> <br>
+#Conclusion of Midway Evaluation  <br> <br>
 
-##Happy to take questions
+##Happy to take questions 
+
 
 
 
 ---
 
 
-background-image: url(ECT3.png)
-background-position: 50% 65%
-background-size: 600px
-
-class: left top 
-##Formal training components completed
-
----
-
-background-image: url(posters3.png)
-background-position: contain
-background-size: 800px
 
 
-class: left top 
-##FORMIDL901 to be completed
-
----
-
-background-image: url(Plan3.png)
-background-position: 50% 65%
-background-size: 675px
-
-class: left top 
-##Plan for project completion
-
----
 
 
-class: left top 
-
-###Technical Challenges <br>
-
-.bitty[
-- Currently no standardized pipeline for QC and EWAS (including DMRs and pathway analyses). <br><br>
-- EPIC probes biased for cancer genes. <br> <br>
-- EWAS literature (2011- 2020): <br><br>
-    - 47% pertains to Illumina 450K; <br><br>
-    - < 7% pertains to EPIC (Wei _et al.,_ 2021) <br><br>
-- Small sample sizes may lack power. <br> <br>
-- Large meta-analyses may have different study designs or methods. 
-]
  
 
----
-
-class: left top 
-
-###Scientific Challenges <br> <br>
-
-.bitty[
-- We can´t control for all environmental factors. <br> <br>
-- The data available to us is derived from one blood sample. <br> <br>
-- Small sample sizes assayed on the chip provide analysis challenges (i.e. singularity) <br> <br>
-
-]
 
 
 
