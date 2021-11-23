@@ -530,7 +530,7 @@ background-size: 600px
 class: left top inverse 
 #Conclusion of Midway Evaluation  <br> <br>
 
-##Happy to take questions 
+##Happy to take questions &#x1F60E;
 
 
 
