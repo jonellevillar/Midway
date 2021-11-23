@@ -8,6 +8,43 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+---
+1. Evaluated correlation between PCA and variables including batch effects <br> <br>
+1. Performed linear regression on cell-type ~ AMP plate <br> <br>
+1. Removed samples with DSRMSE < 0.06 <br> <br>
+1. Performed linear regression on residuals from Step 3 <br> <br>
+---
+
+
+1. Evaluated quality of cell-type estimation: <br> <br>
+    - Deconvolution Specific Root Mean Squared Error (DSRMSE) (Vellame, _et al._, 2020) <br> <br>
+1. Calculated smoking score: (Li, _et al._, 2018)
+
+1. QC: Three phases of TOP methylation data QCed separately and then merged <br> <br> 
+    -  <br> <br>
+
+
+
+---
+class: left top 
+
+###Technical Challenges <br>
+
+.bitty[
+- Currently no standardized pipeline for QC and EWAS (including DMRs and pathway analyses). <br><br>
+- EPIC probes biased for cancer genes. <br> <br>
+- EWAS literature (2011- 2020): <br><br>
+    - 47% pertains to Illumina 450K; <br><br>
+    - < 7% pertains to EPIC (Wei _et al.,_ 2021) <br><br>
+- Small sample sizes may lack power. <br> <br>
+- Large meta-analyses may have different study designs or methods. 
+]
+
+---
+
+
+
+
 
 class: hide_logo
 
