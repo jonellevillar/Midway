@@ -163,7 +163,7 @@ class: left top
 .bitty[
 - Delays caused when NORMENT projects were moved to secure platform (TSD). <br> <br>
 - The data available to us is derived from one blood sample. <br> <br>
-- Realistically, we can´t control for all environmental factors. <br> <br>
+- We don´t know all the environmental factors that affect the epigenome. <br> <br>
 - COVID-19 lockdown: home office for 18 months was challenging.
 ]
 
@@ -294,7 +294,7 @@ Pre-step: Estimated cell-type proportions from DNAm data (Salas, _et al._, 2018)
 .bitty[
 1. Selected European SCZ cases & controls with recorded time-of-blood draw (n=729) <br> <br>
 1. Calculated variable “hours from 07:00 baseline” <br> <br>
-1. Samples matched for age and gender <br> <br>
+1. Samples matched for age and sex <br> <br>
 1. Compared full day vs. half day <br> <br>
 1. Sub-analyses: Neutrophil-to-lymphocyte ratio (NLR) and medication-free SCZ cases
 
