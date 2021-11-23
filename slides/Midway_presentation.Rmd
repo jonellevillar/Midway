@@ -140,7 +140,7 @@ class:hide_logo
 
 class: hide_logo
 
-background-image: url(slides/Smigielski.png)
+background-image: url(Smigielski.png)
 background-position:cover
 background-size: 750px
 
