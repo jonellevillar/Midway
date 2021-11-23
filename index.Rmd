@@ -532,7 +532,7 @@ class: left top inverse
 
 ##Happy to take questions 
 
-<i class="fa-solid fa-face-grin-beam"></i>
+
 
 
 ---
