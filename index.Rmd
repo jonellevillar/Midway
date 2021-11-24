@@ -271,7 +271,7 @@ class: left, top
  - black lines: oscillation profiles
  - red dots: collection time <br> <br>
 - figure c
- - cpg density at 12:00 
+ - CpG density at 12:00 
  ]
 
 ]
