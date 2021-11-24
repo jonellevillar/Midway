@@ -496,7 +496,7 @@ class: top left
 .enlarge[
 1. Select SCZ and BPD cases from Project 2 <br> <br>
 1. Remove CpGs associated with AP from Project 2 <br> <br>
-1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking_score + eCells + Technical +𝜺<br> <br>
+1. Model: DNAm ~ SCZ_BDP + Age + Sex + Smoking_score + eCells + Tech. +𝜺<br> <br>
 1. GSEA and pathway analyses (GREAT) <br> <br>
 1. Compare annotated genes to GWAS findings
 ]
