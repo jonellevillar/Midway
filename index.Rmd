@@ -236,7 +236,7 @@ class: left, top
 
 ###Project 1
 
-###Does time-of-blood draw impact the association of SCZ vs controls on cell-type proportions?
+###Does time-of-blood draw impact the association of SCZ vs. controls on cell-type proportions?
 
 .pull-right[.footnote[Eugène Gabritschevsky, _Untitled_,1947]
 ]
@@ -422,7 +422,7 @@ background-size: 800px
 .bitty[
 1. Select European SCZ, BPD and MDD cases being treated with antipsychotics <br> <br>
 1. Select samples with blood drawn within 4 months of interview date <br> <br>
-1. **Common**: Compare AP-use vs non AP-use   <br> <br>
+1. **Common**: Compare AP-use vs. non AP-use   <br> <br>
 1. **Specific**: Contrast mono-therapy against non-target polytherapy.  <br> <br>
 1. Model: DNAm ~ Psychosis_Cases + Age + Sex + Smoking_score + eCells + Technical + 𝜺<br> <br>
 1. Identify CpGs (_limma_), associated genes (_Illumina annotation_), and DMRs (_Comb-p_) <br> <br>
@@ -442,7 +442,7 @@ background-size: 515px
 class: left, top 
 
 ###Project 3
-###Identify differential DNA methylation in SCZ versus Bipolar
+###Identify differential DNA methylation in SCZ vs. BPD
 
 .pull-left[
 .footnote[Eugène Gabritschevsky, _Untitled_,1949]
