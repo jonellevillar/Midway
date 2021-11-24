@@ -179,7 +179,7 @@ class: left top
 .bitty[
 - **Paper 1**: Is the association of SCZ vs. controls on cell-type proportions impacted by time-of-blood draw? <br> <br />
 - **Paper 2**: What common and specific DNAm marks are seen following antipsychotic drug treatment for psychosis? <br> <br />
-- **Paper 3**: Do we see disorder specific DNAm of SCZ vs. BPD? <br> <br />
+- **Paper 3**: Do we see disorder specific DNAm in SCZ vs. BPD? <br> <br />
 - **Paper 3**: Are these disorder specific DNAm marks associated with development in SCZ & BPD? 
 ]  
 
