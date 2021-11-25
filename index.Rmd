@@ -343,7 +343,7 @@ class: top left hide_logo
 
 ---
 class: top left hide_logo
-###Results Sub-analysis 
+###Results Sub-analyses 
 
 .bitty[
 - NLR: <br> <br>

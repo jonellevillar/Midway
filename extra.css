@@ -12,13 +12,16 @@
   font-size: 0.75em
 } 
 
-/* Extra CSS */
-
+.bitty { 
+    font-size: 1.25em;
 }
-.full-width {
-  display: flex;
-  width: 100%;
-  flex: 1 1 auto;
+
+.enlarge { 
+    font-size: 1.5em;
+}
+
+.fade {
+  opacity: 0.66;
 }
 
 .large {
@@ -33,4 +36,3 @@
 .big {
   font-size: 2em;
   color: blue;
-}
